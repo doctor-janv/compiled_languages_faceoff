@@ -1,0 +1,142 @@
+Requirement docs:
+  example_requirements/requirements.md (not found)
+  example_requirements/requirements1.md (not found)
+Project-root /home/janic/Projects/DR_JAN/compiled_languages_faceoff/
+Test files identified:
+  Test1/Ztests.yaml
+Parsing Test1/Ztests.yaml
+  Created test-job "Test1/gfortran.x" with 4 checks
+  Created test-job "Test1/gfortran_o3.x" with 4 checks
+  Created test-job "Test1/gfortran_w_lu2.x" with 4 checks
+  Created test-job "Test1/gfortran_w_lu2_o3.x" with 4 checks
+  Created test-job "Test1/gfortran_w_lu4.x" with 4 checks
+  Created test-job "Test1/gfortran_w_lu8.x" with 4 checks
+  Created test-job "Test1/ifx.x" with 4 checks
+  Created test-job "Test1/ifx_o3.x" with 4 checks
+  Created test-job "Test1/ifx_w_lu2.x" with 4 checks
+  Created test-job "Test1/ifx_w_lu2_o3.x" with 4 checks
+  Created test-job "Test1/ifx_w_lu4.x" with 4 checks
+  Created test-job "Test1/ifx_w_lu8.x" with 4 checks
+  Created test-job "Test1/gpp.x" with 4 checks
+  Created test-job "Test1/gpp_o3.x" with 4 checks
+  Created test-job "Test1/gpp_w_lu2.x" with 4 checks
+  Created test-job "Test1/gpp_w_lu2_o3.x" with 4 checks
+  Created test-job "Test1/gpp_w_lu4.x" with 4 checks
+  Created test-job "Test1/gpp_w_lu8.x" with 4 checks
+Test files identified:
+  Test2/Ztests.yaml
+Parsing Test2/Ztests.yaml
+  Created test-job "Test2/gfortran.x" with 4 checks
+  Created test-job "Test2/gfortran_o3.x" with 4 checks
+  Created test-job "Test2/gfortran_w_lu2.x" with 4 checks
+  Created test-job "Test2/gfortran_w_lu2_o3.x" with 4 checks
+  Created test-job "Test2/gfortran_w_lu4.x" with 4 checks
+  Created test-job "Test2/gfortran_w_lu8.x" with 4 checks
+  Created test-job "Test2/ifx.x" with 4 checks
+  Created test-job "Test2/ifx_o3.x" with 4 checks
+  Created test-job "Test2/ifx_w_lu2.x" with 4 checks
+  Created test-job "Test2/ifx_w_lu2_o3.x" with 4 checks
+  Created test-job "Test2/ifx_w_lu4.x" with 4 checks
+  Created test-job "Test2/ifx_w_lu8.x" with 4 checks
+  Created test-job "Test2/gpp.x" with 4 checks
+  Created test-job "Test2/gpp_o3.x" with 4 checks
+  Created test-job "Test2/gpp_w_lu2.x" with 4 checks
+  Created test-job "Test2/gpp_w_lu2_o3.x" with 4 checks
+  Created test-job "Test2/gpp_w_lu4.x" with 4 checks
+  Created test-job "Test2/gpp_w_lu8.x" with 4 checks
+Test files identified:
+  Test3/Ztests.yaml
+Parsing Test3/Ztests.yaml
+  Created test-job "Test3/gfortran.x" with 4 checks
+  Created test-job "Test3/gfortran_o3.x" with 4 checks
+  Created test-job "Test3/gfortran_w_lu2.x" with 4 checks
+  Created test-job "Test3/gfortran_w_lu2_o3.x" with 4 checks
+  Created test-job "Test3/gfortran_w_lu4.x" with 4 checks
+  Created test-job "Test3/gfortran_w_lu8.x" with 4 checks
+  Created test-job "Test3/ifx.x" with 4 checks
+  Created test-job "Test3/ifx_o3.x" with 4 checks
+  Created test-job "Test3/ifx_w_lu2.x" with 4 checks
+  Created test-job "Test3/ifx_w_lu2_o3.x" with 4 checks
+  Created test-job "Test3/ifx_w_lu4.x" with 4 checks
+  Created test-job "Test3/ifx_w_lu8.x" with 4 checks
+  Created test-job "Test3/gpp.x" with 4 checks
+  Created test-job "Test3/gpp_o3.x" with 4 checks
+  Created test-job "Test3/gpp_w_lu2.x" with 4 checks
+  Created test-job "Test3/gpp_w_lu2_o3.x" with 4 checks
+  Created test-job "Test3/gpp_w_lu4.x" with 4 checks
+  Created test-job "Test3/gpp_w_lu8.x" with 4 checks
+
+***** TFCTestSystem created *****
+ Main executable          : python3
+ Number of jobs           : 1
+ Weight map               : ['short', 'intermediate', 'long', 'none']
+ Weight class time limits : {'short': 2.0, 'intermediate': 10.0, 'long': 20.0}
+ Default weight class     : 
+ Compiler env-var         : None
+ System details           : CYGWIN_NT-10.0-26200-3.6.7-1.x86_64-x86_64-64bit-WindowsPE
+ System version           : 2026-03-02 20:13 UTC
+ System release           : 3.6.7-1.x86_64
+ 
+
+Running tests with weight class:['short', 'intermediate', 'long', 'none']
+[33m[1][0m  Test1/gfortran.x  ...................................................  [32mPassed[0m 3s mean_time=6.972, std_dev=0.5923216, SEM=0.09365426
+[33m[1][0m  Test1/gfortran_o3.x  ................................................  [32mPassed[0m 3s mean_time=6.938, std_dev=0.1480396, SEM=0.02340712
+[33m[1][0m  Test1/gfortran_w_lu2.x  .............................................  [32mPassed[0m 3s mean_time=7.163, std_dev=0.2105418, SEM=0.03328958
+[33m[1][0m  Test1/gfortran_w_lu2_o3.x  ..........................................  [32mPassed[0m 3s mean_time=7.027, std_dev=0.1778503, SEM=0.02812061
+[33m[1][0m  Test1/gfortran_w_lu4.x  .............................................  [32mPassed[0m 4s mean_time=6.896, std_dev=0.166141, SEM=0.0262692
+[33m[1][0m  Test1/gfortran_w_lu8.x  .............................................  [32mPassed[0m 3s mean_time=7.163, std_dev=0.3136357, SEM=0.04959017
+[33m[1][0m  Test1/ifx.x  ........................................................  [32mPassed[0m 4s mean_time=6.9, std_dev=1.997434, SEM=0.3158221
+[33m[1][0m  Test1/ifx_o3.x  .....................................................  [32mPassed[0m 4s mean_time=6.9, std_dev=0.3789324, SEM=0.05991447
+[33m[1][0m  Test1/ifx_w_lu2.x  ..................................................  [32mPassed[0m 4s mean_time=7.25, std_dev=2.853248, SEM=0.4511382
+[33m[1][0m  Test1/ifx_w_lu2_o3.x  ...............................................  [32mPassed[0m 4s mean_time=7.225, std_dev=0.9996794, SEM=0.1580632
+[33m[1][0m  Test1/ifx_w_lu4.x  ..................................................  [32mPassed[0m 4s mean_time=6.85, std_dev=1.02657, SEM=0.162315
+[33m[1][0m  Test1/ifx_w_lu8.x  ..................................................  [32mPassed[0m 4s mean_time=6.9, std_dev=0.4414429, SEM=0.06979824
+[33m[1][0m  Test1/gpp.x  ........................................................  [32mPassed[0m 4s mean_time=7.152, std_dev=0.5508859, SEM=0.08710271
+[33m[1][0m  Test1/gpp_o3.x  .....................................................  [32mPassed[0m 4s mean_time=7.298, std_dev=0.33117, SEM=0.05236257
+[33m[1][0m  Test1/gpp_w_lu2.x  ..................................................  [32mPassed[0m 4s mean_time=5.533, std_dev=0.8191805, SEM=0.1295238
+[33m[1][0m  Test1/gpp_w_lu2_o3.x  ...............................................  [32mPassed[0m 4s mean_time=5.509, std_dev=0.6740527, SEM=0.1065771
+[33m[1][0m  Test1/gpp_w_lu4.x  ..................................................  [32mPassed[0m 3s mean_time=5.171, std_dev=0.3799058, SEM=0.06006838
+[33m[1][0m  Test1/gpp_w_lu8.x  ..................................................  [32mPassed[0m 3s mean_time=5.118, std_dev=0.4400965, SEM=0.06958537
+[33m[1][0m  Test2/gfortran.x  ...................................................  [32mPassed[0m 4s mean_time=10.788, std_dev=0.652692, SEM=0.1031997
+[33m[1][0m  Test2/gfortran_o3.x  ................................................  [32mPassed[0m 4s mean_time=10.514, std_dev=0.5300937, SEM=0.08381518
+[33m[1][0m  Test2/gfortran_w_lu2.x  .............................................  [32mPassed[0m 5s mean_time=10.637, std_dev=0.727567, SEM=0.1150384
+[33m[1][0m  Test2/gfortran_w_lu2_o3.x  ..........................................  [32mPassed[0m 5s mean_time=10.305, std_dev=0.6760038, SEM=0.1068856
+[33m[1][0m  Test2/gfortran_w_lu4.x  .............................................  [32mPassed[0m 4s mean_time=10.253, std_dev=0.5131994, SEM=0.08114395
+[33m[1][0m  Test2/gfortran_w_lu8.x  .............................................  [32mPassed[0m 4s mean_time=10.033, std_dev=0.4500606, SEM=0.07116083
+[33m[1][0m  Test2/ifx.x  ........................................................  [32mPassed[0m 4s mean_time=10.15, std_dev=1.641606, SEM=0.2595608
+[33m[1][0m  Test2/ifx_o3.x  .....................................................  [32mPassed[0m 4s mean_time=10.325, std_dev=2.042968, SEM=0.3230216
+[33m[1][0m  Test2/ifx_w_lu2.x  ..................................................  [32mPassed[0m 4s mean_time=10.225, std_dev=1.404891, SEM=0.2221327
+[33m[1][0m  Test2/ifx_w_lu2_o3.x  ...............................................  [32mPassed[0m 4s mean_time=10.075, std_dev=1.639066, SEM=0.2591591
+[33m[1][0m  Test2/ifx_w_lu4.x  ..................................................  [32mPassed[0m 4s mean_time=10.25, std_dev=1.276011, SEM=0.2017551
+[33m[1][0m  Test2/ifx_w_lu8.x  ..................................................  [32mPassed[0m 4s mean_time=10.0, std_dev=1.132277, SEM=0.1790287
+[33m[1][0m  Test2/gpp.x  ........................................................  [32mPassed[0m 4s mean_time=10.82, std_dev=0.9287393, SEM=0.1468466
+[33m[1][0m  Test2/gpp_o3.x  .....................................................  [32mPassed[0m 4s mean_time=10.233, std_dev=0.7525855, SEM=0.1189942
+[33m[1][0m  Test2/gpp_w_lu2.x  ..................................................  [32mPassed[0m 4s mean_time=10.647, std_dev=1.00954, SEM=0.1596223
+[33m[1][0m  Test2/gpp_w_lu2_o3.x  ...............................................  [32mPassed[0m 4s mean_time=10.322, std_dev=0.6398415, SEM=0.1011678
+[33m[1][0m  Test2/gpp_w_lu4.x  ..................................................  [32mPassed[0m 5s mean_time=10.495, std_dev=0.5338784, SEM=0.08441359
+[33m[1][0m  Test2/gpp_w_lu8.x  ..................................................  [32mPassed[0m 5s mean_time=10.619, std_dev=0.5850802, SEM=0.0925093
+[33m[1][0m  Test3/gfortran.x  ...................................................  [32mPassed[0m 4s mean_time=8.604, std_dev=0.4715786, SEM=0.07456313
+[33m[1][0m  Test3/gfortran_o3.x  ................................................  [32mPassed[0m 4s mean_time=8.403, std_dev=0.2849897, SEM=0.04506083
+[33m[1][0m  Test3/gfortran_w_lu2.x  .............................................  [32mPassed[0m 4s mean_time=8.562, std_dev=0.4212537, SEM=0.06660606
+[33m[1][0m  Test3/gfortran_w_lu2_o3.x  ..........................................  [32mPassed[0m 4s mean_time=8.58, std_dev=0.470688, SEM=0.0744223
+[33m[1][0m  Test3/gfortran_w_lu4.x  .............................................  [32mPassed[0m 4s mean_time=8.438, std_dev=0.3217647, SEM=0.05087547
+[33m[1][0m  Test3/gfortran_w_lu8.x  .............................................  [32mPassed[0m 4s mean_time=8.444, std_dev=0.3010188, SEM=0.04759526
+[33m[1][0m  Test3/ifx.x  ........................................................  [32mPassed[0m 4s mean_time=7.425, std_dev=1.009887, SEM=0.1596772
+[33m[1][0m  Test3/ifx_o3.x  .....................................................  [32mPassed[0m 4s mean_time=7.575, std_dev=1.009887, SEM=0.1596772
+[33m[1][0m  Test3/ifx_w_lu2.x  ..................................................  [32mPassed[0m 4s mean_time=7.15, std_dev=0.7355445, SEM=0.1162998
+[33m[1][0m  Test3/ifx_w_lu2_o3.x  ...............................................  [32mPassed[0m 4s mean_time=7.55, std_dev=1.011473, SEM=0.1599279
+[33m[1][0m  Test3/ifx_w_lu4.x  ..................................................  [32mPassed[0m 4s mean_time=7.45, std_dev=0.9857966, SEM=0.1558681
+[33m[1][0m  Test3/ifx_w_lu8.x  ..................................................  [32mPassed[0m 4s mean_time=7.125, std_dev=1.343312, SEM=0.2123963
+[33m[1][0m  Test3/gpp.x  ........................................................  [32mPassed[0m 4s mean_time=8.47, std_dev=0.3582381, SEM=0.05664242
+[33m[1][0m  Test3/gpp_o3.x  .....................................................  [32mPassed[0m 4s mean_time=8.643, std_dev=0.4456604, SEM=0.07046509
+[33m[1][0m  Test3/gpp_w_lu2.x  ..................................................  [32mPassed[0m 4s mean_time=8.761, std_dev=0.4128761, SEM=0.06528144
+[33m[1][0m  Test3/gpp_w_lu2_o3.x  ...............................................  [32mPassed[0m 4s mean_time=8.674, std_dev=0.5356293, SEM=0.08469043
+[33m[1][0m  Test3/gpp_w_lu4.x  ..................................................  [32mPassed[0m 4s mean_time=8.535, std_dev=0.3875421, SEM=0.06127579
+[33m[1][0m  Test3/gpp_w_lu8.x  ..................................................  [32mPassed[0m 4s mean_time=8.718, std_dev=0.7764448, SEM=0.1227667
+Done executing tests with weight class: ['short', 'intermediate', 'long', 'none']
+
+Elapsed time                       : 216.37 seconds
+Number of initialization warnings : 0
+Number of tests run               : 54
+Number of tests skipped           : 0
+Number of failed tests            : 0

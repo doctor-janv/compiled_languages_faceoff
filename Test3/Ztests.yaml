@@ -1,0 +1,31 @@
+TEMPLATE_test:
+  executable: $PROJECT_ROOT/python_wrapper.py
+  args: $PROJECT_ROOT/Test3/bin/$TEST_NAME
+  checks: 
+    - {type: ExitCodeCheck}
+    - {type: ResultTagCheck, line_key: "Mean time", word_number: 3, result_tag: "mean_time"}
+    - {type: ResultTagCheck, line_key: "std.dev", word_number: 2, result_tag: "std_dev"}
+    - {type: ResultTagCheck, line_key: "SEM", word_number: 2, result_tag: "SEM"}
+
+gfortran.x: {from_template: TEMPLATE_test}
+gfortran_o3.x: {from_template: TEMPLATE_test}
+gfortran_w_lu2.x: {from_template: TEMPLATE_test}
+gfortran_w_lu2_o3.x: {from_template: TEMPLATE_test}
+gfortran_w_lu4.x: {from_template: TEMPLATE_test}
+gfortran_w_lu8.x: {from_template: TEMPLATE_test}
+
+ifx.x: {from_template: TEMPLATE_test}
+ifx_o3.x: {from_template: TEMPLATE_test}
+ifx_w_lu2.x: {from_template: TEMPLATE_test}
+ifx_w_lu2_o3.x: {from_template: TEMPLATE_test}
+ifx_w_lu4.x: {from_template: TEMPLATE_test}
+ifx_w_lu8.x: {from_template: TEMPLATE_test}
+
+gpp.x: {from_template: TEMPLATE_test}
+gpp_o3.x: {from_template: TEMPLATE_test}
+gpp_w_lu2.x: {from_template: TEMPLATE_test}
+gpp_w_lu2_o3.x: {from_template: TEMPLATE_test}
+gpp_w_lu4.x: {from_template: TEMPLATE_test}
+gpp_w_lu8.x: {from_template: TEMPLATE_test}
+  
+
