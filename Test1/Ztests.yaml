@@ -28,4 +28,11 @@ gpp_w_lu2_o3.x: {from_template: TEMPLATE_test}
 gpp_w_lu4.x: {from_template: TEMPLATE_test}
 gpp_w_lu8.x: {from_template: TEMPLATE_test}
 
+icx.x: {from_template: TEMPLATE_test}
+icx_o3.x: {from_template: TEMPLATE_test}
+icx_w_lu2.x: {from_template: TEMPLATE_test}
+icx_w_lu2_o3.x: {from_template: TEMPLATE_test}
+icx_w_lu4.x: {from_template: TEMPLATE_test}
+icx_w_lu8.x: {from_template: TEMPLATE_test}
+
 

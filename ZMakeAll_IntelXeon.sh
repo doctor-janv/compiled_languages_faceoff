@@ -29,6 +29,13 @@ pushd Test1/
     ifx -nologo -stand:f08 -O2 gfortran_w_lu4.F90 -obin/ifx_w_lu4.x
     ifx -nologo -stand:f08 -O2 gfortran_w_lu8.F90 -obin/ifx_w_lu8.x
 
+    icpx -std=c++17 -O2 gpp.cc -o bin/icx.x
+    icpx -std=c++17 -O3 gpp.cc -o bin/icx_o3.x
+    icpx -std=c++17 -O2 gpp_w_lu2.cc -o bin/icx_w_lu2.x
+    icpx -std=c++17 -O3 gpp_w_lu2.cc -o bin/icx_w_lu2_o3.x
+    icpx -std=c++17 -O2 gpp_w_lu4.cc -o bin/icx_w_lu4.x
+    icpx -std=c++17 -O2 gpp_w_lu8.cc -o bin/icx_w_lu8.x
+
 popd
 
 pushd Test2/
@@ -55,6 +62,13 @@ pushd Test2/
     ifx -nologo -stand:f08 -O2 gfortran_w_lu4.F90 -obin/ifx_w_lu4.x
     ifx -nologo -stand:f08 -O2 gfortran_w_lu8.F90 -obin/ifx_w_lu8.x
 
+    icpx -std=c++17 -O2 gpp.cc -o bin/icx.x
+    icpx -std=c++17 -O3 gpp.cc -o bin/icx_o3.x
+    icpx -std=c++17 -O2 gpp_w_lu2.cc -o bin/icx_w_lu2.x
+    icpx -std=c++17 -O3 gpp_w_lu2.cc -o bin/icx_w_lu2_o3.x
+    icpx -std=c++17 -O2 gpp_w_lu4.cc -o bin/icx_w_lu4.x
+    icpx -std=c++17 -O2 gpp_w_lu8.cc -o bin/icx_w_lu8.x
+
 popd
 
 pushd Test3/
@@ -80,6 +94,13 @@ pushd Test3/
     ifx -nologo -stand:f08 -O3 gfortran_w_lu2.F90 -obin/ifx_w_lu2_o3.x
     ifx -nologo -stand:f08 -O2 gfortran_w_lu4.F90 -obin/ifx_w_lu4.x
     ifx -nologo -stand:f08 -O2 gfortran_w_lu8.F90 -obin/ifx_w_lu8.x
+
+    icpx -std=c++17 -O2 gpp.cc -o bin/icx.x
+    icpx -std=c++17 -O3 gpp.cc -o bin/icx_o3.x
+    icpx -std=c++17 -O2 gpp_w_lu2.cc -o bin/icx_w_lu2.x
+    icpx -std=c++17 -O3 gpp_w_lu2.cc -o bin/icx_w_lu2_o3.x
+    icpx -std=c++17 -O2 gpp_w_lu4.cc -o bin/icx_w_lu4.x
+    icpx -std=c++17 -O2 gpp_w_lu8.cc -o bin/icx_w_lu8.x
 
 popd
 

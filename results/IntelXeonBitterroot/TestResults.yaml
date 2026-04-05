@@ -1,0 +1,648 @@
+- name: Test1/gfortran.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 6.49
+    std_dev: 0.04098365
+    SEM: 0.006480083
+- name: Test1/gfortran_o3.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 6.486
+    std_dev: 0.03624322
+    SEM: 0.005730556
+- name: Test1/gfortran_w_lu2.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 6.484
+    std_dev: 0.03932886
+    SEM: 0.006218439
+- name: Test1/gfortran_w_lu2_o3.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 6.497
+    std_dev: 0.04835641
+    SEM: 0.007645819
+- name: Test1/gfortran_w_lu4.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 6.487
+    std_dev: 0.03161612
+    SEM: 0.004998947
+- name: Test1/gfortran_w_lu8.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 6.469
+    std_dev: 0.02521227
+    SEM: 0.00398641
+- name: Test1/ifx.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 6.504
+    std_dev: 0.05144227
+    SEM: 0.008133737
+- name: Test1/ifx_o3.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 6.489
+    std_dev: 0.03932833
+    SEM: 0.006218355
+- name: Test1/ifx_w_lu2.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 6.491
+    std_dev: 0.05714556
+    SEM: 0.009035506
+- name: Test1/ifx_w_lu2_o3.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 6.49
+    std_dev: 0.03576841
+    SEM: 0.005655482
+- name: Test1/ifx_w_lu4.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 6.491
+    std_dev: 0.05343318
+    SEM: 0.008448528
+- name: Test1/ifx_w_lu8.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 6.492
+    std_dev: 0.06694368
+    SEM: 0.01058472
+- name: Test1/gpp.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 12.437
+    std_dev: 0.08933799
+    SEM: 0.01412558
+- name: Test1/gpp_o3.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 12.421
+    std_dev: 0.09707509
+    SEM: 0.01534892
+- name: Test1/gpp_w_lu2.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 6.032
+    std_dev: 0.1471412
+    SEM: 0.02326506
+- name: Test1/gpp_w_lu2_o3.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 6.056
+    std_dev: 0.150849
+    SEM: 0.02385133
+- name: Test1/gpp_w_lu4.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 5.731
+    std_dev: 0.2070167
+    SEM: 0.03273222
+- name: Test1/gpp_w_lu8.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 5.688
+    std_dev: 0.1979872
+    SEM: 0.03130452
+- name: Test1/icx.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 5.397
+    std_dev: 0.1792753
+    SEM: 0.02834591
+- name: Test1/icx_o3.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 5.463
+    std_dev: 0.1717229
+    SEM: 0.02715178
+- name: Test1/icx_w_lu2.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 5.477
+    std_dev: 0.1728509
+    SEM: 0.02733013
+- name: Test1/icx_w_lu2_o3.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 5.431
+    std_dev: 0.1270994
+    SEM: 0.02009617
+- name: Test1/icx_w_lu4.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 5.417
+    std_dev: 0.133591
+    SEM: 0.02112259
+- name: Test1/icx_w_lu8.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 5.424
+    std_dev: 0.1469809
+    SEM: 0.02323971
+- name: Test2/gfortran.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 9.852
+    std_dev: 0.08685018
+    SEM: 0.01373222
+- name: Test2/gfortran_o3.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 8.884
+    std_dev: 0.1625815
+    SEM: 0.02570639
+- name: Test2/gfortran_w_lu2.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 8.905
+    std_dev: 0.2040199
+    SEM: 0.03225838
+- name: Test2/gfortran_w_lu2_o3.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 8.919
+    std_dev: 0.1678387
+    SEM: 0.02653763
+- name: Test2/gfortran_w_lu4.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 8.859
+    std_dev: 0.1191796
+    SEM: 0.01884396
+- name: Test2/gfortran_w_lu8.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 9.098
+    std_dev: 0.1166029
+    SEM: 0.01843653
+- name: Test2/ifx.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 9.325
+    std_dev: 0.1183066
+    SEM: 0.01870591
+- name: Test2/ifx_o3.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 9.302
+    std_dev: 0.09536789
+    SEM: 0.01507899
+- name: Test2/ifx_w_lu2.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 9.27
+    std_dev: 0.130259
+    SEM: 0.02059575
+- name: Test2/ifx_w_lu2_o3.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 9.307
+    std_dev: 0.09694074
+    SEM: 0.01532768
+- name: Test2/ifx_w_lu4.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 9.308
+    std_dev: 0.09318162
+    SEM: 0.01473331
+- name: Test2/ifx_w_lu8.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 9.304
+    std_dev: 0.1061783
+    SEM: 0.01678827
+- name: Test2/gpp.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 9.724
+    std_dev: 0.09633152
+    SEM: 0.01523135
+- name: Test2/gpp_o3.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 8.885
+    std_dev: 0.09331429
+    SEM: 0.01475428
+- name: Test2/gpp_w_lu2.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 9.555
+    std_dev: 0.1040118
+    SEM: 0.01644571
+- name: Test2/gpp_w_lu2_o3.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 8.98
+    std_dev: 0.09946597
+    SEM: 0.01572695
+- name: Test2/gpp_w_lu4.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 9.333
+    std_dev: 0.1189177
+    SEM: 0.01880253
+- name: Test2/gpp_w_lu8.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 9.243
+    std_dev: 0.1088983
+    SEM: 0.01721833
+- name: Test2/icx.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 8.899
+    std_dev: 0.1065139
+    SEM: 0.01684133
+- name: Test2/icx_o3.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 8.838
+    std_dev: 0.1570778
+    SEM: 0.02483618
+- name: Test2/icx_w_lu2.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 8.791
+    std_dev: 0.1679519
+    SEM: 0.02655552
+- name: Test2/icx_w_lu2_o3.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 8.764
+    std_dev: 0.1901052
+    SEM: 0.03005828
+- name: Test2/icx_w_lu4.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 8.754
+    std_dev: 0.1712247
+    SEM: 0.02707301
+- name: Test2/icx_w_lu8.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 9.257
+    std_dev: 0.1861923
+    SEM: 0.02943959
+- name: Test3/gfortran.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 9.1
+    std_dev: 0.1858726
+    SEM: 0.02938904
+- name: Test3/gfortran_o3.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 8.819
+    std_dev: 0.2103371
+    SEM: 0.03325721
+- name: Test3/gfortran_w_lu2.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 8.832
+    std_dev: 0.139096
+    SEM: 0.02199301
+- name: Test3/gfortran_w_lu2_o3.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 8.8
+    std_dev: 0.2590215
+    SEM: 0.0409549
+- name: Test3/gfortran_w_lu4.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 8.491
+    std_dev: 0.2304728
+    SEM: 0.03644095
+- name: Test3/gfortran_w_lu8.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 8.404
+    std_dev: 0.2442106
+    SEM: 0.03861309
+- name: Test3/ifx.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 8.032
+    std_dev: 0.3185287
+    SEM: 0.05036381
+- name: Test3/ifx_o3.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 8.078
+    std_dev: 0.2325885
+    SEM: 0.03677547
+- name: Test3/ifx_w_lu2.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 7.986
+    std_dev: 0.2907291
+    SEM: 0.04596831
+- name: Test3/ifx_w_lu2_o3.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 7.932
+    std_dev: 0.2931191
+    SEM: 0.04634621
+- name: Test3/ifx_w_lu4.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 8.057
+    std_dev: 0.2339675
+    SEM: 0.0369935
+- name: Test3/ifx_w_lu8.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 7.968
+    std_dev: 0.278218
+    SEM: 0.04399013
+- name: Test3/gpp.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 9.039
+    std_dev: 0.2425695
+    SEM: 0.0383536
+- name: Test3/gpp_o3.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 14.502
+    std_dev: 0.1053749
+    SEM: 0.01666124
+- name: Test3/gpp_w_lu2.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 8.99
+    std_dev: 0.2890859
+    SEM: 0.04570849
+- name: Test3/gpp_w_lu2_o3.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 9.101
+    std_dev: 0.2530543
+    SEM: 0.04001139
+- name: Test3/gpp_w_lu4.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 8.9
+    std_dev: 0.2850866
+    SEM: 0.04507615
+- name: Test3/gpp_w_lu8.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 8.95
+    std_dev: 0.3390642
+    SEM: 0.05361075
+- name: Test3/icx.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 7.482
+    std_dev: 0.3023984
+    SEM: 0.04781339
+- name: Test3/icx_o3.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 7.473
+    std_dev: 0.2767593
+    SEM: 0.04375949
+- name: Test3/icx_w_lu2.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 7.542
+    std_dev: 0.2134077
+    SEM: 0.03374272
+- name: Test3/icx_w_lu2_o3.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 7.528
+    std_dev: 0.2534413
+    SEM: 0.04007259
+- name: Test3/icx_w_lu4.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 7.479
+    std_dev: 0.2673556
+    SEM: 0.04227263
+- name: Test3/icx_w_lu8.x
+  requirements: []
+  passed: true
+  annotations: ''
+  test_doc_page: ''
+  tagged_results:
+    mean_time: 8.922
+    std_dev: 0.3527539
+    SEM: 0.05577529
