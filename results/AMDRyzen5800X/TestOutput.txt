@@ -23,6 +23,12 @@ Parsing Test1/Ztests.yaml
   Created test-job "Test1/gpp_w_lu2_o3.x" with 4 checks
   Created test-job "Test1/gpp_w_lu4.x" with 4 checks
   Created test-job "Test1/gpp_w_lu8.x" with 4 checks
+  Created test-job "Test1/icx.x" with 4 checks
+  Created test-job "Test1/icx_o3.x" with 4 checks
+  Created test-job "Test1/icx_w_lu2.x" with 4 checks
+  Created test-job "Test1/icx_w_lu2_o3.x" with 4 checks
+  Created test-job "Test1/icx_w_lu4.x" with 4 checks
+  Created test-job "Test1/icx_w_lu8.x" with 4 checks
 Test files identified:
   Test2/Ztests.yaml
 Parsing Test2/Ztests.yaml
@@ -44,6 +50,12 @@ Parsing Test2/Ztests.yaml
   Created test-job "Test2/gpp_w_lu2_o3.x" with 4 checks
   Created test-job "Test2/gpp_w_lu4.x" with 4 checks
   Created test-job "Test2/gpp_w_lu8.x" with 4 checks
+  Created test-job "Test2/icx.x" with 4 checks
+  Created test-job "Test2/icx_o3.x" with 4 checks
+  Created test-job "Test2/icx_w_lu2.x" with 4 checks
+  Created test-job "Test2/icx_w_lu2_o3.x" with 4 checks
+  Created test-job "Test2/icx_w_lu4.x" with 4 checks
+  Created test-job "Test2/icx_w_lu8.x" with 4 checks
 Test files identified:
   Test3/Ztests.yaml
 Parsing Test3/Ztests.yaml
@@ -65,6 +77,12 @@ Parsing Test3/Ztests.yaml
   Created test-job "Test3/gpp_w_lu2_o3.x" with 4 checks
   Created test-job "Test3/gpp_w_lu4.x" with 4 checks
   Created test-job "Test3/gpp_w_lu8.x" with 4 checks
+  Created test-job "Test3/icx.x" with 4 checks
+  Created test-job "Test3/icx_o3.x" with 4 checks
+  Created test-job "Test3/icx_w_lu2.x" with 4 checks
+  Created test-job "Test3/icx_w_lu2_o3.x" with 4 checks
+  Created test-job "Test3/icx_w_lu4.x" with 4 checks
+  Created test-job "Test3/icx_w_lu8.x" with 4 checks
 
 ***** TFCTestSystem created *****
  Main executable          : python3
@@ -79,64 +97,82 @@ Parsing Test3/Ztests.yaml
  
 
 Running tests with weight class:['short', 'intermediate', 'long', 'none']
-[33m[1][0m  Test1/gfortran.x  ...................................................  [32mPassed[0m 3s mean_time=6.972, std_dev=0.5923216, SEM=0.09365426
-[33m[1][0m  Test1/gfortran_o3.x  ................................................  [32mPassed[0m 3s mean_time=6.938, std_dev=0.1480396, SEM=0.02340712
-[33m[1][0m  Test1/gfortran_w_lu2.x  .............................................  [32mPassed[0m 3s mean_time=7.163, std_dev=0.2105418, SEM=0.03328958
-[33m[1][0m  Test1/gfortran_w_lu2_o3.x  ..........................................  [32mPassed[0m 3s mean_time=7.027, std_dev=0.1778503, SEM=0.02812061
-[33m[1][0m  Test1/gfortran_w_lu4.x  .............................................  [32mPassed[0m 4s mean_time=6.896, std_dev=0.166141, SEM=0.0262692
-[33m[1][0m  Test1/gfortran_w_lu8.x  .............................................  [32mPassed[0m 3s mean_time=7.163, std_dev=0.3136357, SEM=0.04959017
-[33m[1][0m  Test1/ifx.x  ........................................................  [32mPassed[0m 4s mean_time=6.9, std_dev=1.997434, SEM=0.3158221
-[33m[1][0m  Test1/ifx_o3.x  .....................................................  [32mPassed[0m 4s mean_time=6.9, std_dev=0.3789324, SEM=0.05991447
-[33m[1][0m  Test1/ifx_w_lu2.x  ..................................................  [32mPassed[0m 4s mean_time=7.25, std_dev=2.853248, SEM=0.4511382
-[33m[1][0m  Test1/ifx_w_lu2_o3.x  ...............................................  [32mPassed[0m 4s mean_time=7.225, std_dev=0.9996794, SEM=0.1580632
-[33m[1][0m  Test1/ifx_w_lu4.x  ..................................................  [32mPassed[0m 4s mean_time=6.85, std_dev=1.02657, SEM=0.162315
-[33m[1][0m  Test1/ifx_w_lu8.x  ..................................................  [32mPassed[0m 4s mean_time=6.9, std_dev=0.4414429, SEM=0.06979824
-[33m[1][0m  Test1/gpp.x  ........................................................  [32mPassed[0m 4s mean_time=7.152, std_dev=0.5508859, SEM=0.08710271
-[33m[1][0m  Test1/gpp_o3.x  .....................................................  [32mPassed[0m 4s mean_time=7.298, std_dev=0.33117, SEM=0.05236257
-[33m[1][0m  Test1/gpp_w_lu2.x  ..................................................  [32mPassed[0m 4s mean_time=5.533, std_dev=0.8191805, SEM=0.1295238
-[33m[1][0m  Test1/gpp_w_lu2_o3.x  ...............................................  [32mPassed[0m 4s mean_time=5.509, std_dev=0.6740527, SEM=0.1065771
-[33m[1][0m  Test1/gpp_w_lu4.x  ..................................................  [32mPassed[0m 3s mean_time=5.171, std_dev=0.3799058, SEM=0.06006838
-[33m[1][0m  Test1/gpp_w_lu8.x  ..................................................  [32mPassed[0m 3s mean_time=5.118, std_dev=0.4400965, SEM=0.06958537
-[33m[1][0m  Test2/gfortran.x  ...................................................  [32mPassed[0m 4s mean_time=10.788, std_dev=0.652692, SEM=0.1031997
-[33m[1][0m  Test2/gfortran_o3.x  ................................................  [32mPassed[0m 4s mean_time=10.514, std_dev=0.5300937, SEM=0.08381518
-[33m[1][0m  Test2/gfortran_w_lu2.x  .............................................  [32mPassed[0m 5s mean_time=10.637, std_dev=0.727567, SEM=0.1150384
-[33m[1][0m  Test2/gfortran_w_lu2_o3.x  ..........................................  [32mPassed[0m 5s mean_time=10.305, std_dev=0.6760038, SEM=0.1068856
-[33m[1][0m  Test2/gfortran_w_lu4.x  .............................................  [32mPassed[0m 4s mean_time=10.253, std_dev=0.5131994, SEM=0.08114395
-[33m[1][0m  Test2/gfortran_w_lu8.x  .............................................  [32mPassed[0m 4s mean_time=10.033, std_dev=0.4500606, SEM=0.07116083
-[33m[1][0m  Test2/ifx.x  ........................................................  [32mPassed[0m 4s mean_time=10.15, std_dev=1.641606, SEM=0.2595608
-[33m[1][0m  Test2/ifx_o3.x  .....................................................  [32mPassed[0m 4s mean_time=10.325, std_dev=2.042968, SEM=0.3230216
-[33m[1][0m  Test2/ifx_w_lu2.x  ..................................................  [32mPassed[0m 4s mean_time=10.225, std_dev=1.404891, SEM=0.2221327
-[33m[1][0m  Test2/ifx_w_lu2_o3.x  ...............................................  [32mPassed[0m 4s mean_time=10.075, std_dev=1.639066, SEM=0.2591591
-[33m[1][0m  Test2/ifx_w_lu4.x  ..................................................  [32mPassed[0m 4s mean_time=10.25, std_dev=1.276011, SEM=0.2017551
-[33m[1][0m  Test2/ifx_w_lu8.x  ..................................................  [32mPassed[0m 4s mean_time=10.0, std_dev=1.132277, SEM=0.1790287
-[33m[1][0m  Test2/gpp.x  ........................................................  [32mPassed[0m 4s mean_time=10.82, std_dev=0.9287393, SEM=0.1468466
-[33m[1][0m  Test2/gpp_o3.x  .....................................................  [32mPassed[0m 4s mean_time=10.233, std_dev=0.7525855, SEM=0.1189942
-[33m[1][0m  Test2/gpp_w_lu2.x  ..................................................  [32mPassed[0m 4s mean_time=10.647, std_dev=1.00954, SEM=0.1596223
-[33m[1][0m  Test2/gpp_w_lu2_o3.x  ...............................................  [32mPassed[0m 4s mean_time=10.322, std_dev=0.6398415, SEM=0.1011678
-[33m[1][0m  Test2/gpp_w_lu4.x  ..................................................  [32mPassed[0m 5s mean_time=10.495, std_dev=0.5338784, SEM=0.08441359
-[33m[1][0m  Test2/gpp_w_lu8.x  ..................................................  [32mPassed[0m 5s mean_time=10.619, std_dev=0.5850802, SEM=0.0925093
-[33m[1][0m  Test3/gfortran.x  ...................................................  [32mPassed[0m 4s mean_time=8.604, std_dev=0.4715786, SEM=0.07456313
-[33m[1][0m  Test3/gfortran_o3.x  ................................................  [32mPassed[0m 4s mean_time=8.403, std_dev=0.2849897, SEM=0.04506083
-[33m[1][0m  Test3/gfortran_w_lu2.x  .............................................  [32mPassed[0m 4s mean_time=8.562, std_dev=0.4212537, SEM=0.06660606
-[33m[1][0m  Test3/gfortran_w_lu2_o3.x  ..........................................  [32mPassed[0m 4s mean_time=8.58, std_dev=0.470688, SEM=0.0744223
-[33m[1][0m  Test3/gfortran_w_lu4.x  .............................................  [32mPassed[0m 4s mean_time=8.438, std_dev=0.3217647, SEM=0.05087547
-[33m[1][0m  Test3/gfortran_w_lu8.x  .............................................  [32mPassed[0m 4s mean_time=8.444, std_dev=0.3010188, SEM=0.04759526
-[33m[1][0m  Test3/ifx.x  ........................................................  [32mPassed[0m 4s mean_time=7.425, std_dev=1.009887, SEM=0.1596772
-[33m[1][0m  Test3/ifx_o3.x  .....................................................  [32mPassed[0m 4s mean_time=7.575, std_dev=1.009887, SEM=0.1596772
-[33m[1][0m  Test3/ifx_w_lu2.x  ..................................................  [32mPassed[0m 4s mean_time=7.15, std_dev=0.7355445, SEM=0.1162998
-[33m[1][0m  Test3/ifx_w_lu2_o3.x  ...............................................  [32mPassed[0m 4s mean_time=7.55, std_dev=1.011473, SEM=0.1599279
-[33m[1][0m  Test3/ifx_w_lu4.x  ..................................................  [32mPassed[0m 4s mean_time=7.45, std_dev=0.9857966, SEM=0.1558681
-[33m[1][0m  Test3/ifx_w_lu8.x  ..................................................  [32mPassed[0m 4s mean_time=7.125, std_dev=1.343312, SEM=0.2123963
-[33m[1][0m  Test3/gpp.x  ........................................................  [32mPassed[0m 4s mean_time=8.47, std_dev=0.3582381, SEM=0.05664242
-[33m[1][0m  Test3/gpp_o3.x  .....................................................  [32mPassed[0m 4s mean_time=8.643, std_dev=0.4456604, SEM=0.07046509
-[33m[1][0m  Test3/gpp_w_lu2.x  ..................................................  [32mPassed[0m 4s mean_time=8.761, std_dev=0.4128761, SEM=0.06528144
-[33m[1][0m  Test3/gpp_w_lu2_o3.x  ...............................................  [32mPassed[0m 4s mean_time=8.674, std_dev=0.5356293, SEM=0.08469043
-[33m[1][0m  Test3/gpp_w_lu4.x  ..................................................  [32mPassed[0m 4s mean_time=8.535, std_dev=0.3875421, SEM=0.06127579
-[33m[1][0m  Test3/gpp_w_lu8.x  ..................................................  [32mPassed[0m 4s mean_time=8.718, std_dev=0.7764448, SEM=0.1227667
+[33m[1][0m  Test1/gfortran.x  ...................................................  [32mPassed[0m 3s mean_time=7.207, std_dev=0.6043172, SEM=0.09555093
+[33m[1][0m  Test1/gfortran_o3.x  ................................................  [32mPassed[0m 3s mean_time=7.031, std_dev=0.1721039, SEM=0.02721202
+[33m[1][0m  Test1/gfortran_w_lu2.x  .............................................  [32mPassed[0m 3s mean_time=7.212, std_dev=0.1668598, SEM=0.02638285
+[33m[1][0m  Test1/gfortran_w_lu2_o3.x  ..........................................  [32mPassed[0m 3s mean_time=7.254, std_dev=0.2795684, SEM=0.04420365
+[33m[1][0m  Test1/gfortran_w_lu4.x  .............................................  [32mPassed[0m 3s mean_time=7.067, std_dev=0.2369619, SEM=0.03746696
+[33m[1][0m  Test1/gfortran_w_lu8.x  .............................................  [32mPassed[0m 3s mean_time=6.95, std_dev=0.1947978, SEM=0.03080024
+[33m[1][0m  Test1/ifx.x  ........................................................  [32mPassed[0m 3s mean_time=6.7, std_dev=1.604481, SEM=0.2536907
+[33m[1][0m  Test1/ifx_o3.x  .....................................................  [32mPassed[0m 3s mean_time=7.8, std_dev=2.015326, SEM=0.318651
+[33m[1][0m  Test1/ifx_w_lu2.x  ..................................................  [32mPassed[0m 3s mean_time=7.45, std_dev=2.352849, SEM=0.3720181
+[33m[1][0m  Test1/ifx_w_lu2_o3.x  ...............................................  [32mPassed[0m 4s mean_time=7.35, std_dev=2.082282, SEM=0.3292377
+[33m[1][0m  Test1/ifx_w_lu4.x  ..................................................  [32mPassed[0m 3s mean_time=7.025, std_dev=2.031641, SEM=0.3212306
+[33m[1][0m  Test1/ifx_w_lu8.x  ..................................................  [32mPassed[0m 3s mean_time=7.65, std_dev=2.142967, SEM=0.3388328
+[33m[1][0m  Test1/gpp.x  ........................................................  [32mPassed[0m 3s mean_time=7.088, std_dev=0.2084873, SEM=0.03296474
+[33m[1][0m  Test1/gpp_o3.x  .....................................................  [32mPassed[0m 3s mean_time=7.128, std_dev=0.2533244, SEM=0.04005411
+[33m[1][0m  Test1/gpp_w_lu2.x  ..................................................  [32mPassed[0m 3s mean_time=5.111, std_dev=0.3163575, SEM=0.05002051
+[33m[1][0m  Test1/gpp_w_lu2_o3.x  ...............................................  [32mPassed[0m 3s mean_time=5.139, std_dev=0.4235303, SEM=0.06696601
+[33m[1][0m  Test1/gpp_w_lu4.x  ..................................................  [32mPassed[0m 3s mean_time=4.906, std_dev=0.353049, SEM=0.05582195
+[33m[1][0m  Test1/gpp_w_lu8.x  ..................................................  [32mPassed[0m 3s mean_time=4.861, std_dev=0.3782283, SEM=0.05980315
+[33m[1][0m  Test1/icx.x  ........................................................  [32mPassed[0m 3s mean_time=4.573, std_dev=0.2469145, SEM=0.03904062
+[33m[1][0m  Test1/icx_o3.x  .....................................................  [32mPassed[0m 3s mean_time=4.516, std_dev=0.2964094, SEM=0.04686644
+[33m[1][0m  Test1/icx_w_lu2.x  ..................................................  [32mPassed[0m 3s mean_time=4.727, std_dev=0.4600467, SEM=0.07273978
+[33m[1][0m  Test1/icx_w_lu2_o3.x  ...............................................  [32mPassed[0m 3s mean_time=4.621, std_dev=0.4690496, SEM=0.07416326
+[33m[1][0m  Test1/icx_w_lu4.x  ..................................................  [32mPassed[0m 3s mean_time=4.705, std_dev=0.3878159, SEM=0.06131908
+[33m[1][0m  Test1/icx_w_lu8.x  ..................................................  [32mPassed[0m 3s mean_time=4.621, std_dev=0.3526122, SEM=0.05575289
+[33m[1][0m  Test2/gfortran.x  ...................................................  [32mPassed[0m 5s mean_time=10.322, std_dev=0.5799933, SEM=0.09170499
+[33m[1][0m  Test2/gfortran_o3.x  ................................................  [32mPassed[0m 4s mean_time=10.104, std_dev=0.6530172, SEM=0.1032511
+[33m[1][0m  Test2/gfortran_w_lu2.x  .............................................  [32mPassed[0m 4s mean_time=10.088, std_dev=0.4855194, SEM=0.07676736
+[33m[1][0m  Test2/gfortran_w_lu2_o3.x  ..........................................  [32mPassed[0m 4s mean_time=9.838, std_dev=0.3324697, SEM=0.05256808
+[33m[1][0m  Test2/gfortran_w_lu4.x  .............................................  [32mPassed[0m 4s mean_time=9.98, std_dev=0.5104155, SEM=0.08070378
+[33m[1][0m  Test2/gfortran_w_lu8.x  .............................................  [32mPassed[0m 4s mean_time=10.013, std_dev=0.3636036, SEM=0.05749077
+[33m[1][0m  Test2/ifx.x  ........................................................  [32mPassed[0m 5s mean_time=10.0, std_dev=1.132277, SEM=0.1790287
+[33m[1][0m  Test2/ifx_o3.x  .....................................................  [32mPassed[0m 4s mean_time=9.9, std_dev=1.007663, SEM=0.1593255
+[33m[1][0m  Test2/ifx_w_lu2.x  ..................................................  [32mPassed[0m 4s mean_time=9.8, std_dev=1.522481, SEM=0.2407254
+[33m[1][0m  Test2/ifx_w_lu2_o3.x  ...............................................  [32mPassed[0m 4s mean_time=10.1, std_dev=1.296939, SEM=0.2050641
+[33m[1][0m  Test2/ifx_w_lu4.x  ..................................................  [32mPassed[0m 4s mean_time=9.725, std_dev=2.112084, SEM=0.3339498
+[33m[1][0m  Test2/ifx_w_lu8.x  ..................................................  [32mPassed[0m 4s mean_time=10.0, std_dev=0.7161149, SEM=0.1132277
+[33m[1][0m  Test2/gpp.x  ........................................................  [32mPassed[0m 4s mean_time=10.291, std_dev=0.4487333, SEM=0.07095097
+[33m[1][0m  Test2/gpp_o3.x  .....................................................  [32mPassed[0m 4s mean_time=10.162, std_dev=0.5920762, SEM=0.09361547
+[33m[1][0m  Test2/gpp_w_lu2.x  ..................................................  [32mPassed[0m 4s mean_time=10.477, std_dev=0.7102685, SEM=0.1123033
+[33m[1][0m  Test2/gpp_w_lu2_o3.x  ...............................................  [32mPassed[0m 4s mean_time=10.338, std_dev=0.7050086, SEM=0.1114717
+[33m[1][0m  Test2/gpp_w_lu4.x  ..................................................  [32mPassed[0m 4s mean_time=10.499, std_dev=0.4772388, SEM=0.07545808
+[33m[1][0m  Test2/gpp_w_lu8.x  ..................................................  [32mPassed[0m 4s mean_time=10.347, std_dev=0.5051557, SEM=0.07987212
+[33m[1][0m  Test2/icx.x  ........................................................  [32mPassed[0m 4s mean_time=10.12, std_dev=0.4698046, SEM=0.07428263
+[33m[1][0m  Test2/icx_o3.x  .....................................................  [32mPassed[0m 4s mean_time=10.216, std_dev=0.4804874, SEM=0.07597172
+[33m[1][0m  Test2/icx_w_lu2.x  ..................................................  [32mPassed[0m 4s mean_time=10.282, std_dev=0.5403348, SEM=0.08543443
+[33m[1][0m  Test2/icx_w_lu2_o3.x  ...............................................  [32mPassed[0m 4s mean_time=10.385, std_dev=0.4974928, SEM=0.07866052
+[33m[1][0m  Test2/icx_w_lu4.x  ..................................................  [32mPassed[0m 4s mean_time=10.483, std_dev=0.5148858, SEM=0.08141059
+[33m[1][0m  Test2/icx_w_lu8.x  ..................................................  [32mPassed[0m 4s mean_time=10.527, std_dev=0.3721609, SEM=0.0588438
+[33m[1][0m  Test3/gfortran.x  ...................................................  [32mPassed[0m 4s mean_time=8.479, std_dev=0.2283502, SEM=0.03610534
+[33m[1][0m  Test3/gfortran_o3.x  ................................................  [32mPassed[0m 4s mean_time=8.648, std_dev=0.5139346, SEM=0.08126019
+[33m[1][0m  Test3/gfortran_w_lu2.x  .............................................  [32mPassed[0m 4s mean_time=8.527, std_dev=0.3090879, SEM=0.04887108
+[33m[1][0m  Test3/gfortran_w_lu2_o3.x  ..........................................  [32mPassed[0m 4s mean_time=8.509, std_dev=0.3336632, SEM=0.05275679
+[33m[1][0m  Test3/gfortran_w_lu4.x  .............................................  [32mPassed[0m 4s mean_time=8.595, std_dev=0.6468458, SEM=0.1022753
+[33m[1][0m  Test3/gfortran_w_lu8.x  .............................................  [32mPassed[0m 4s mean_time=8.59, std_dev=0.4342497, SEM=0.06866091
+[33m[1][0m  Test3/ifx.x  ........................................................  [32mPassed[0m 4s mean_time=8.6, std_dev=3.152533, SEM=0.4984592
+[33m[1][0m  Test3/ifx_o3.x  .....................................................  [32mPassed[0m 5s mean_time=8.425, std_dev=1.430214, SEM=0.2261367
+[33m[1][0m  Test3/ifx_w_lu2.x  ..................................................  [32mPassed[0m 4s mean_time=7.3, std_dev=0.8227534, SEM=0.1300887
+[33m[1][0m  Test3/ifx_w_lu2_o3.x  ...............................................  [32mPassed[0m 4s mean_time=7.45, std_dev=0.9323255, SEM=0.1474136
+[33m[1][0m  Test3/ifx_w_lu4.x  ..................................................  [32mPassed[0m 4s mean_time=7.45, std_dev=0.8458041, SEM=0.1337334
+[33m[1][0m  Test3/ifx_w_lu8.x  ..................................................  [32mPassed[0m 4s mean_time=7.575, std_dev=0.8737629, SEM=0.138154
+[33m[1][0m  Test3/gpp.x  ........................................................  [32mPassed[0m 4s mean_time=8.484, std_dev=0.4181673, SEM=0.06611805
+[33m[1][0m  Test3/gpp_o3.x  .....................................................  [32mPassed[0m 4s mean_time=8.528, std_dev=0.4394939, SEM=0.06949009
+[33m[1][0m  Test3/gpp_w_lu2.x  ..................................................  [32mPassed[0m 4s mean_time=8.917, std_dev=0.6424901, SEM=0.1015866
+[33m[1][0m  Test3/gpp_w_lu2_o3.x  ...............................................  [32mPassed[0m 4s mean_time=8.829, std_dev=0.5966224, SEM=0.09433428
+[33m[1][0m  Test3/gpp_w_lu4.x  ..................................................  [32mPassed[0m 3s mean_time=8.879, std_dev=0.9241757, SEM=0.146125
+[33m[1][0m  Test3/gpp_w_lu8.x  ..................................................  [32mPassed[0m 4s mean_time=8.806, std_dev=0.5443209, SEM=0.0860647
+[33m[1][0m  Test3/icx.x  ........................................................  [32mPassed[0m 4s mean_time=7.656, std_dev=0.4993923, SEM=0.07896086
+[33m[1][0m  Test3/icx_o3.x  .....................................................  [32mPassed[0m 4s mean_time=7.685, std_dev=0.5753037, SEM=0.0909635
+[33m[1][0m  Test3/icx_w_lu2.x  ..................................................  [32mPassed[0m 4s mean_time=7.49, std_dev=0.4154753, SEM=0.06569241
+[33m[1][0m  Test3/icx_w_lu2_o3.x  ...............................................  [32mPassed[0m 5s mean_time=7.347, std_dev=0.2262351, SEM=0.03577091
+[33m[1][0m  Test3/icx_w_lu4.x  ..................................................  [32mPassed[0m 4s mean_time=7.42, std_dev=0.3401976, SEM=0.05378997
+[33m[1][0m  Test3/icx_w_lu8.x  ..................................................  [32mPassed[0m 4s mean_time=8.68, std_dev=0.4207965, SEM=0.06653377
 Done executing tests with weight class: ['short', 'intermediate', 'long', 'none']
 
-Elapsed time                       : 216.37 seconds
+Elapsed time                       : 266.86 seconds
 Number of initialization warnings : 0
-Number of tests run               : 54
+Number of tests run               : 72
 Number of tests skipped           : 0
 Number of failed tests            : 0
