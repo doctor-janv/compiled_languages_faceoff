@@ -1,0 +1,25 @@
+Bootstrap: oras
+From: mooseharbor.hpc.inl.gov/relap5-base/relap5-base:rocky8.6-intel2.1.8-8
+
+%post
+    # Install uv
+    UV_DIR=/opt/uv
+    UV_BIN_DIR=${UV_DIR}/bin
+    export XDG_DATA_HOME=${UV_DIR}/data
+    mkdir -p ${UV_BIN_DIR} ${XDG_DATA_HOME}
+    curl -LsSf https://astral.sh/uv/install.sh | XDG_BIN_HOME=${UV_BIN_DIR} sh
+
+    # Create python 3.14 environment
+    ${UV_BIN_DIR}/uv venv /opt/python --no-project --no-config --relocatable --no-cache --python 3.14
+
+    # Install necessary packages
+    ${UV_BIN_DIR}/uv pip install --no-cache --python /opt/python/bin/python toposort pygments rich markdown markdown-include setuptools-scm bs4 jinja2 graphviz tqdm python-markdown-math tomli
+
+    # Install tree
+    dnf install -y tree
+    dnf install -y graphviz
+
+    # Clean up
+    ${UV_BIN_DIR}/uv cache clean
+    unset XDG_DATA_HOME
+    dnf clean all

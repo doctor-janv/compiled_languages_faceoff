@@ -1,10 +1,5 @@
-# INTEL_COMPILER_DIR="/cygdrive/c/Program Files (x86)/Intel/oneAPI/compiler/latest"
-# PATH="$INTEL_COMPILER_DIR/bin/":$PATH
-# PATH="$INTEL_COMPILER_DIR/lib/":$PATH
-# MVS_DIR=/cygdrive/c/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/VC/Tools/MSVC/14.42.34433/
-# PATH="$MVS_DIR/bin/Hostx64/x64/":$PATH
-# PATH="$MVS_DIR/lib/x64/":$PATH
-
+export PATH="/opt/intel/compiler/2025.0/bin":$PATH
+export PATH="/opt/intel/compiler/2025.0/lib":$PATH
 pushd Test1/
     mkdir "bin" 2>/dev/null || true
 

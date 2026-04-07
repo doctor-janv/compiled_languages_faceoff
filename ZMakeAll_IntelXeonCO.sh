@@ -1,3 +1,5 @@
+export PATH="/opt/intel/compiler/2025.0/bin":$PATH
+export PATH="/opt/intel/compiler/2025.0/lib":$PATH
 pushd Test1/
     mkdir "bin" 2>/dev/null || true
 
