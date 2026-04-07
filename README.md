@@ -18,3 +18,13 @@ Example on MacOS ARM1:
 ```
 ./ZMakeAll_ARM1.sh && ./test/run_tests -d "Test1,Test2,Test3,Test4,Test5,Test6,Test7,Test8" -j 1 | tee TestOutput.txt
 ```
+
+On teton you need to startup the container.
+```
+module load apptainer
+apptainer exec --bind $PWD scratch/container_v10.sif bash
+```
+When inside the container gcc-12 needs to be activated
+```
+scl enable gcc-toolset-12 bash
+```
