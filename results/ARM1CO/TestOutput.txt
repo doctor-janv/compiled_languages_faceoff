@@ -1,0 +1,388 @@
+Requirement docs:
+  example_requirements/requirements.md (not found)
+  example_requirements/requirements1.md (not found)
+Project-root /Users/vermjc/Repos/DR_JAN/compiled_languages_faceoff/
+Test files identified:
+  Test1/Ztests.yaml
+Parsing Test1/Ztests.yaml
+  Created test-job "Test1/gfortran.x" with 4 checks
+  Created test-job "Test1/gfortran_o3.x" with 4 checks
+  Created test-job "Test1/gfortran_w_lu2.x" with 4 checks
+  Created test-job "Test1/gfortran_w_lu2_o3.x" with 4 checks
+  Created test-job "Test1/gfortran_w_lu4.x" with 4 checks
+  Created test-job "Test1/gfortran_w_lu8.x" with 4 checks
+  Created test-job "Test1/ifx.x" with 4 checks
+  Created test-job "Test1/ifx_o3.x" with 4 checks
+  Created test-job "Test1/ifx_w_lu2.x" with 4 checks
+  Created test-job "Test1/ifx_w_lu2_o3.x" with 4 checks
+  Created test-job "Test1/ifx_w_lu4.x" with 4 checks
+  Created test-job "Test1/ifx_w_lu8.x" with 4 checks
+  Created test-job "Test1/gpp.x" with 4 checks
+  Created test-job "Test1/gpp_o3.x" with 4 checks
+  Created test-job "Test1/gpp_w_lu2.x" with 4 checks
+  Created test-job "Test1/gpp_w_lu2_o3.x" with 4 checks
+  Created test-job "Test1/gpp_w_lu4.x" with 4 checks
+  Created test-job "Test1/gpp_w_lu8.x" with 4 checks
+  Created test-job "Test1/icx.x" with 4 checks
+  Created test-job "Test1/icx_o3.x" with 4 checks
+  Created test-job "Test1/icx_w_lu2.x" with 4 checks
+  Created test-job "Test1/icx_w_lu2_o3.x" with 4 checks
+  Created test-job "Test1/icx_w_lu4.x" with 4 checks
+  Created test-job "Test1/icx_w_lu8.x" with 4 checks
+Test files identified:
+  Test2/Ztests.yaml
+Parsing Test2/Ztests.yaml
+  Created test-job "Test2/gfortran.x" with 4 checks
+  Created test-job "Test2/gfortran_o3.x" with 4 checks
+  Created test-job "Test2/gfortran_w_lu2.x" with 4 checks
+  Created test-job "Test2/gfortran_w_lu2_o3.x" with 4 checks
+  Created test-job "Test2/gfortran_w_lu4.x" with 4 checks
+  Created test-job "Test2/gfortran_w_lu8.x" with 4 checks
+  Created test-job "Test2/ifx.x" with 4 checks
+  Created test-job "Test2/ifx_o3.x" with 4 checks
+  Created test-job "Test2/ifx_w_lu2.x" with 4 checks
+  Created test-job "Test2/ifx_w_lu2_o3.x" with 4 checks
+  Created test-job "Test2/ifx_w_lu4.x" with 4 checks
+  Created test-job "Test2/ifx_w_lu8.x" with 4 checks
+  Created test-job "Test2/gpp.x" with 4 checks
+  Created test-job "Test2/gpp_o3.x" with 4 checks
+  Created test-job "Test2/gpp_w_lu2.x" with 4 checks
+  Created test-job "Test2/gpp_w_lu2_o3.x" with 4 checks
+  Created test-job "Test2/gpp_w_lu4.x" with 4 checks
+  Created test-job "Test2/gpp_w_lu8.x" with 4 checks
+  Created test-job "Test2/icx.x" with 4 checks
+  Created test-job "Test2/icx_o3.x" with 4 checks
+  Created test-job "Test2/icx_w_lu2.x" with 4 checks
+  Created test-job "Test2/icx_w_lu2_o3.x" with 4 checks
+  Created test-job "Test2/icx_w_lu4.x" with 4 checks
+  Created test-job "Test2/icx_w_lu8.x" with 4 checks
+Test files identified:
+  Test3/Ztests.yaml
+Parsing Test3/Ztests.yaml
+  Created test-job "Test3/gfortran.x" with 4 checks
+  Created test-job "Test3/gfortran_o3.x" with 4 checks
+  Created test-job "Test3/gfortran_w_lu2.x" with 4 checks
+  Created test-job "Test3/gfortran_w_lu2_o3.x" with 4 checks
+  Created test-job "Test3/gfortran_w_lu4.x" with 4 checks
+  Created test-job "Test3/gfortran_w_lu8.x" with 4 checks
+  Created test-job "Test3/ifx.x" with 4 checks
+  Created test-job "Test3/ifx_o3.x" with 4 checks
+  Created test-job "Test3/ifx_w_lu2.x" with 4 checks
+  Created test-job "Test3/ifx_w_lu2_o3.x" with 4 checks
+  Created test-job "Test3/ifx_w_lu4.x" with 4 checks
+  Created test-job "Test3/ifx_w_lu8.x" with 4 checks
+  Created test-job "Test3/gpp.x" with 4 checks
+  Created test-job "Test3/gpp_o3.x" with 4 checks
+  Created test-job "Test3/gpp_w_lu2.x" with 4 checks
+  Created test-job "Test3/gpp_w_lu2_o3.x" with 4 checks
+  Created test-job "Test3/gpp_w_lu4.x" with 4 checks
+  Created test-job "Test3/gpp_w_lu8.x" with 4 checks
+  Created test-job "Test3/icx.x" with 4 checks
+  Created test-job "Test3/icx_o3.x" with 4 checks
+  Created test-job "Test3/icx_w_lu2.x" with 4 checks
+  Created test-job "Test3/icx_w_lu2_o3.x" with 4 checks
+  Created test-job "Test3/icx_w_lu4.x" with 4 checks
+  Created test-job "Test3/icx_w_lu8.x" with 4 checks
+Test files identified:
+  Test4/Ztests.yaml
+Parsing Test4/Ztests.yaml
+  Created test-job "Test4/gfortran.x" with 4 checks
+  Created test-job "Test4/gfortran_o3.x" with 4 checks
+  Created test-job "Test4/ifx.x" with 4 checks
+  Created test-job "Test4/ifx_o3.x" with 4 checks
+  Created test-job "Test4/gpp.x" with 4 checks
+  Created test-job "Test4/gpp_o3.x" with 4 checks
+  Created test-job "Test4/icx.x" with 4 checks
+  Created test-job "Test4/icx_o3.x" with 4 checks
+Test files identified:
+  Test5/Ztests.yaml
+Parsing Test5/Ztests.yaml
+  Created test-job "Test5/gfortran.x" with 4 checks
+  Created test-job "Test5/gfortran_o3.x" with 4 checks
+  Created test-job "Test5/ifx.x" with 4 checks
+  Created test-job "Test5/ifx_o3.x" with 4 checks
+  Created test-job "Test5/gpp.x" with 4 checks
+  Created test-job "Test5/gpp_o3.x" with 4 checks
+  Created test-job "Test5/icx.x" with 4 checks
+  Created test-job "Test5/icx_o3.x" with 4 checks
+Test files identified:
+  Test6/Ztests.yaml
+Parsing Test6/Ztests.yaml
+  Created test-job "Test6/gfortran.x" with 4 checks
+  Created test-job "Test6/gfortran_o3.x" with 4 checks
+  Created test-job "Test6/ifx.x" with 4 checks
+  Created test-job "Test6/ifx_o3.x" with 4 checks
+  Created test-job "Test6/gpp.x" with 4 checks
+  Created test-job "Test6/gpp_o3.x" with 4 checks
+  Created test-job "Test6/icx.x" with 4 checks
+  Created test-job "Test6/icx_o3.x" with 4 checks
+Test files identified:
+  Test7/Ztests.yaml
+Parsing Test7/Ztests.yaml
+  Created test-job "Test7/gfortran.x" with 4 checks
+  Created test-job "Test7/gfortran_o3.x" with 4 checks
+  Created test-job "Test7/ifx.x" with 4 checks
+  Created test-job "Test7/ifx_o3.x" with 4 checks
+  Created test-job "Test7/gpp.x" with 4 checks
+  Created test-job "Test7/gpp_o3.x" with 4 checks
+  Created test-job "Test7/icx.x" with 4 checks
+  Created test-job "Test7/icx_o3.x" with 4 checks
+Test files identified:
+  Test8/Ztests.yaml
+Parsing Test8/Ztests.yaml
+  Created test-job "Test8/gfortran.x" with 4 checks
+  Created test-job "Test8/gfortran_o3.x" with 4 checks
+  Created test-job "Test8/ifx.x" with 4 checks
+  Created test-job "Test8/ifx_o3.x" with 4 checks
+  Created test-job "Test8/gpp.x" with 4 checks
+  Created test-job "Test8/gpp_o3.x" with 4 checks
+  Created test-job "Test8/icx.x" with 4 checks
+  Created test-job "Test8/icx_o3.x" with 4 checks
+
+***** TFCTestSystem created *****
+ Main executable          : python3
+ Number of jobs           : 1
+ Weight map               : ['short', 'intermediate', 'long', 'none']
+ Weight class time limits : {'short': 2.0, 'intermediate': 10.0, 'long': 20.0}
+ Default weight class     : 
+ Compiler env-var         : None
+ System details           : macOS-26.4-arm64-arm-64bit
+ System version           : Darwin Kernel Version 25.4.0: Thu Mar 19 19:30:44 PDT 2026; root:xnu-12377.101.15~1/RELEASE_ARM64_T6000
+ System release           : 25.4.0
+ 
+
+Running tests with weight class:['short', 'intermediate', 'long', 'none']
+[33m[1][0m  Test1/gfortran.x  ...................................................  [32mPassed[0m 4s mean_time=11.651, std_dev=1.158784, SEM=0.1832198
+[33m[1][0m  Test1/gfortran_o3.x  ................................................  [32mPassed[0m 4s mean_time=12.534, std_dev=1.118064, SEM=0.1767815
+[33m[1][0m  Test1/gfortran_w_lu2.x  .............................................  [32mPassed[0m 4s mean_time=13.208, std_dev=7.580381, SEM=1.198564
+[33m[1][0m  Test1/gfortran_w_lu2_o3.x  ..........................................  [32mPassed[0m 4s mean_time=12.683, std_dev=4.964314, SEM=0.784927
+[33m[1][0m  Test1/gfortran_w_lu4.x  .............................................  [32mPassed[0m 4s mean_time=12.956, std_dev=4.325082, SEM=0.6838555
+[33m[1][0m  Test1/gfortran_w_lu8.x  .............................................  [32mPassed[0m 4s mean_time=12.302, std_dev=1.804929, SEM=0.2853843
+[33m[1][0m  Test1/ifx.x  ........................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test1/ifx_o3.x  .....................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test1/ifx_w_lu2.x  ..................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test1/ifx_w_lu2_o3.x  ...............................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test1/ifx_w_lu4.x  ..................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test1/ifx_w_lu8.x  ..................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test1/gpp.x  ........................................................  [32mPassed[0m 4s mean_time=12.735, std_dev=1.475796, SEM=0.2333438
+[33m[1][0m  Test1/gpp_o3.x  .....................................................  [32mPassed[0m 4s mean_time=11.769, std_dev=1.627581, SEM=0.2573431
+[33m[1][0m  Test1/gpp_w_lu2.x  ..................................................  [32mPassed[0m 4s mean_time=6.977, std_dev=0.9698945, SEM=0.1533538
+[33m[1][0m  Test1/gpp_w_lu2_o3.x  ...............................................  [32mPassed[0m 3s mean_time=6.792, std_dev=0.5437683, SEM=0.08597732
+[33m[1][0m  Test1/gpp_w_lu4.x  ..................................................  [32mPassed[0m 3s mean_time=4.371, std_dev=1.451392, SEM=0.2294852
+[33m[1][0m  Test1/gpp_w_lu8.x  ..................................................  [32mPassed[0m 3s mean_time=3.797, std_dev=2.850839, SEM=0.4507572
+[33m[1][0m  Test1/icx.x  ........................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test1/icx_o3.x  .....................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test1/icx_w_lu2.x  ..................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test1/icx_w_lu2_o3.x  ...............................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test1/icx_w_lu4.x  ..................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test1/icx_w_lu8.x  ..................................................  [31mFailed[0m 0.1s
+[33m[1][0m  Test2/gfortran.x  ...................................................  [32mPassed[0m 5s mean_time=8.267, std_dev=0.8097944, SEM=0.1280397
+[33m[1][0m  Test2/gfortran_o3.x  ................................................  [32mPassed[0m 5s mean_time=6.701, std_dev=1.186835, SEM=0.1876551
+[33m[1][0m  Test2/gfortran_w_lu2.x  .............................................  [32mPassed[0m 5s mean_time=6.456, std_dev=0.8474314, SEM=0.1339907
+[33m[1][0m  Test2/gfortran_w_lu2_o3.x  ..........................................  [32mPassed[0m 5s mean_time=6.221, std_dev=0.6121326, SEM=0.09678666
+[33m[1][0m  Test2/gfortran_w_lu4.x  .............................................  [32mPassed[0m 5s mean_time=5.268, std_dev=0.9162609, SEM=0.1448736
+[33m[1][0m  Test2/gfortran_w_lu8.x  .............................................  [32mPassed[0m 5s mean_time=5.373, std_dev=0.6302607, SEM=0.09965296
+[33m[1][0m  Test2/ifx.x  ........................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test2/ifx_o3.x  .....................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test2/ifx_w_lu2.x  ..................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test2/ifx_w_lu2_o3.x  ...............................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test2/ifx_w_lu4.x  ..................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test2/ifx_w_lu8.x  ..................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test2/gpp.x  ........................................................  [32mPassed[0m 5s mean_time=5.91, std_dev=2.22199, SEM=0.3513275
+[33m[1][0m  Test2/gpp_o3.x  .....................................................  [32mPassed[0m 6s mean_time=5.908, std_dev=1.036369, SEM=0.1638643
+[33m[1][0m  Test2/gpp_w_lu2.x  ..................................................  [32mPassed[0m 5s mean_time=4.77, std_dev=1.114561, SEM=0.1762276
+[33m[1][0m  Test2/gpp_w_lu2_o3.x  ...............................................  [32mPassed[0m 5s mean_time=5.64, std_dev=1.686098, SEM=0.2665955
+[33m[1][0m  Test2/gpp_w_lu4.x  ..................................................  [32mPassed[0m 5s mean_time=6.318, std_dev=1.342783, SEM=0.2123126
+[33m[1][0m  Test2/gpp_w_lu8.x  ..................................................  [32mPassed[0m 5s mean_time=6.95, std_dev=1.229968, SEM=0.194475
+[33m[1][0m  Test2/icx.x  ........................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test2/icx_o3.x  .....................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test2/icx_w_lu2.x  ..................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test2/icx_w_lu2_o3.x  ...............................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test2/icx_w_lu4.x  ..................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test2/icx_w_lu8.x  ..................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test3/gfortran.x  ...................................................  [32mPassed[0m 6s mean_time=16.647, std_dev=1.093201, SEM=0.1728503
+[33m[1][0m  Test3/gfortran_o3.x  ................................................  [32mPassed[0m 5s mean_time=15.878, std_dev=0.8937392, SEM=0.1413126
+[33m[1][0m  Test3/gfortran_w_lu2.x  .............................................  [32mPassed[0m 5s mean_time=17.118, std_dev=1.969967, SEM=0.3114791
+[33m[1][0m  Test3/gfortran_w_lu2_o3.x  ..........................................  [32mPassed[0m 5s mean_time=15.162, std_dev=1.243088, SEM=0.1965495
+[33m[1][0m  Test3/gfortran_w_lu4.x  .............................................  [32mPassed[0m 5s mean_time=11.684, std_dev=0.5916576, SEM=0.09354928
+[33m[1][0m  Test3/gfortran_w_lu8.x  .............................................  [32mPassed[0m 5s mean_time=12.634, std_dev=0.8555852, SEM=0.1352799
+[33m[1][0m  Test3/ifx.x  ........................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test3/ifx_o3.x  .....................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test3/ifx_w_lu2.x  ..................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test3/ifx_w_lu2_o3.x  ...............................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test3/ifx_w_lu4.x  ..................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test3/ifx_w_lu8.x  ..................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test3/gpp.x  ........................................................  [32mPassed[0m 5s mean_time=13.324, std_dev=1.057392, SEM=0.1671884
+[33m[1][0m  Test3/gpp_o3.x  .....................................................  [32mPassed[0m 5s mean_time=13.482, std_dev=1.386141, SEM=0.2191682
+[33m[1][0m  Test3/gpp_w_lu2.x  ..................................................  [32mPassed[0m 5s mean_time=16.505, std_dev=1.290557, SEM=0.2040549
+[33m[1][0m  Test3/gpp_w_lu2_o3.x  ...............................................  [32mPassed[0m 5s mean_time=16.859, std_dev=1.300691, SEM=0.2056573
+[33m[1][0m  Test3/gpp_w_lu4.x  ..................................................  [32mPassed[0m 5s mean_time=16.607, std_dev=1.267022, SEM=0.2003338
+[33m[1][0m  Test3/gpp_w_lu8.x  ..................................................  [32mPassed[0m 5s mean_time=16.818, std_dev=1.748639, SEM=0.2764841
+[33m[1][0m  Test3/icx.x  ........................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test3/icx_o3.x  .....................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test3/icx_w_lu2.x  ..................................................  [31mFailed[0m 0.3s
+[33m[1][0m  Test3/icx_w_lu2_o3.x  ...............................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test3/icx_w_lu4.x  ..................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test3/icx_w_lu8.x  ..................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test4/gfortran.x  ...................................................  [32mPassed[0m 4s mean_time=12.356, std_dev=0.7424041, SEM=0.1173844
+[33m[1][0m  Test4/gfortran_o3.x  ................................................  [32mPassed[0m 4s mean_time=12.53, std_dev=2.594741, SEM=0.4102646
+[33m[1][0m  Test4/ifx.x  ........................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test4/ifx_o3.x  .....................................................  [31mFailed[0m 0.3s
+[33m[1][0m  Test4/gpp.x  ........................................................  [32mPassed[0m 4s mean_time=11.802, std_dev=1.084661, SEM=0.1715
+[33m[1][0m  Test4/gpp_o3.x  .....................................................  [32mPassed[0m 4s mean_time=10.807, std_dev=1.097106, SEM=0.1734677
+[33m[1][0m  Test4/icx.x  ........................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test4/icx_o3.x  .....................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test5/gfortran.x  ...................................................  [32mPassed[0m 4s mean_time=11.163, std_dev=0.7136038, SEM=0.1128307
+[33m[1][0m  Test5/gfortran_o3.x  ................................................  [32mPassed[0m 4s mean_time=11.408, std_dev=0.7959398, SEM=0.1258491
+[33m[1][0m  Test5/ifx.x  ........................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test5/ifx_o3.x  .....................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test5/gpp.x  ........................................................  [32mPassed[0m 4s mean_time=11.153, std_dev=0.7728223, SEM=0.1221939
+[33m[1][0m  Test5/gpp_o3.x  .....................................................  [32mPassed[0m 3s mean_time=11.104, std_dev=0.7148829, SEM=0.1130329
+[33m[1][0m  Test5/icx.x  ........................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test5/icx_o3.x  .....................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test6/gfortran.x  ...................................................  [32mPassed[0m 4s mean_time=11.056, std_dev=0.9029758, SEM=0.142773
+[33m[1][0m  Test6/gfortran_o3.x  ................................................  [32mPassed[0m 4s mean_time=11.189, std_dev=0.7659699, SEM=0.1211105
+[33m[1][0m  Test6/ifx.x  ........................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test6/ifx_o3.x  .....................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test6/gpp.x  ........................................................  [32mPassed[0m 4s mean_time=11.326, std_dev=0.8286657, SEM=0.1310236
+[33m[1][0m  Test6/gpp_o3.x  .....................................................  [32mPassed[0m 4s mean_time=11.988, std_dev=0.8676428, SEM=0.1371864
+[33m[1][0m  Test6/icx.x  ........................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test6/icx_o3.x  .....................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test7/gfortran.x  ...................................................  [32mPassed[0m 4s mean_time=12.365, std_dev=1.566169, SEM=0.247633
+[33m[1][0m  Test7/gfortran_o3.x  ................................................  [32mPassed[0m 4s mean_time=12.209, std_dev=0.5662267, SEM=0.0895283
+[33m[1][0m  Test7/ifx.x  ........................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test7/ifx_o3.x  .....................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test7/gpp.x  ........................................................  [32mPassed[0m 4s mean_time=12.046, std_dev=0.7332577, SEM=0.1159382
+[33m[1][0m  Test7/gpp_o3.x  .....................................................  [32mPassed[0m 4s mean_time=12.285, std_dev=0.6096832, SEM=0.09639938
+[33m[1][0m  Test7/icx.x  ........................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test7/icx_o3.x  .....................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test8/gfortran.x  ...................................................  [32mPassed[0m 4s mean_time=11.974, std_dev=0.5034231, SEM=0.07959819
+[33m[1][0m  Test8/gfortran_o3.x  ................................................  [32mPassed[0m 4s mean_time=12.082, std_dev=0.5546333, SEM=0.08769523
+[33m[1][0m  Test8/ifx.x  ........................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test8/ifx_o3.x  .....................................................  [31mFailed[0m 0.2s
+[33m[1][0m  Test8/gpp.x  ........................................................  [32mPassed[0m 4s mean_time=12.117, std_dev=0.7158748, SEM=0.1131897
+[33m[1][0m  Test8/gpp_o3.x  .....................................................  [32mPassed[0m 4s mean_time=12.116, std_dev=0.8799216, SEM=0.1391278
+[33m[1][0m  Test8/icx.x  ........................................................  [31mFailed[0m 0.1s
+[33m[1][0m  Test8/icx_o3.x  .....................................................  [31mFailed[0m 0.2s
+Done executing tests with weight class: ['short', 'intermediate', 'long', 'none']
+
+Elapsed time                       : 263.65 seconds
+Number of initialization warnings : 0
+Number of tests run               : 112
+Number of tests skipped           : 0
+[31mNumber of failed tests            : 56[0m
+
+[31mFailure reasons:
+Test1/ifx.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test1/ifx_o3.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test1/ifx_w_lu2.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test1/ifx_w_lu2_o3.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test1/ifx_w_lu4.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test1/ifx_w_lu8.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test1/icx.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test1/icx_o3.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test1/icx_w_lu2.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test1/icx_w_lu2_o3.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test1/icx_w_lu4.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test1/icx_w_lu8.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test2/ifx.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test2/ifx_o3.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test2/ifx_w_lu2.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test2/ifx_w_lu2_o3.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test2/ifx_w_lu4.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test2/ifx_w_lu8.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test2/icx.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test2/icx_o3.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test2/icx_w_lu2.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test2/icx_w_lu2_o3.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test2/icx_w_lu4.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test2/icx_w_lu8.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test3/ifx.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test3/ifx_o3.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test3/ifx_w_lu2.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test3/ifx_w_lu2_o3.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test3/ifx_w_lu4.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test3/ifx_w_lu8.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test3/icx.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test3/icx_o3.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test3/icx_w_lu2.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test3/icx_w_lu2_o3.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test3/icx_w_lu4.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test3/icx_w_lu8.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test4/ifx.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test4/ifx_o3.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test4/icx.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test4/icx_o3.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test5/ifx.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test5/ifx_o3.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test5/icx.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test5/icx_o3.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test6/ifx.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test6/ifx_o3.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test6/icx.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test6/icx_o3.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test7/ifx.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test7/ifx_o3.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test7/icx.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test7/icx_o3.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test8/ifx.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test8/ifx_o3.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test8/icx.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+Test8/icx_o3.x:
+<class 'checks.ExitCodeCheck.ExitCodeCheck'> Error code, 1, does not match required value, 0.<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "Mean time".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "std.dev".<class 'checks.ResultTagCheck.ResultTagCheck'> Could not find line containing "SEM".
+[0m
