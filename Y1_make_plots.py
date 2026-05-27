@@ -63,7 +63,7 @@ def make_plot(plot_num, test_num, plot_title):
     f"Test{test_num}/ifx_o3.x",
     f"Test{test_num}/icx_o3.x",
     ]
-    colors = tuple(["green","blue","orange","red" ])
+    colors = tuple(["black","blue","gray","green" ])
 
     max_y = 0.0
     configurations = tuple(cpus)
