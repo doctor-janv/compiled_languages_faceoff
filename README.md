@@ -15,6 +15,7 @@ A faceoff between compiled languages
 ## Running the tests
 
 Example on MacOS ARM1:
+Load conda: `conda activate moose-dev-2025.05.23`
 ```
 ./ZMakeAll_ARM1.sh && ./test/run_tests -d "Test1,Test2,Test3,Test4,Test5,Test6,Test7,Test8" -j 1 | tee TestOutput.txt
 ```

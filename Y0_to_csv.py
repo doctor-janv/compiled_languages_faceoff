@@ -1,3 +1,6 @@
+# This script converts the host of yaml-based test results to .csv. The
+# results are contained in the `results/` folder separated by processor
+# configuration.
 import yaml
 
 processors = [
@@ -5,6 +8,8 @@ processors = [
 "AMDRyzen5800XCO",
 "AMDTurin",
 "AMDTurinCO",
+"ARM4",
+"ARM4CO",
 "ARM1",
 "ARM1CO",
 "IntelXeon",
@@ -126,7 +131,8 @@ tests =[
 "Test8/icx_o3.x",
 ]
 
-data_types = ["mean_time", "std_dev", "SEM"]
+# data_types = ["mean_time", "std_dev", "SEM"]
+data_types = ["mean_time", "SEM"]
 
 
 first_row = ["TestName"]
@@ -146,8 +152,10 @@ for processor in processors:
             test_data = data[result_block["name"]]
             if result_block["passed"]:
                 tagged_results = result_block["tagged_results"]
+                # test_data += [tagged_results["mean_time"],
+                #               tagged_results["std_dev"],
+                #               tagged_results["SEM"]]
                 test_data += [tagged_results["mean_time"],
-                              tagged_results["std_dev"],
                               tagged_results["SEM"]]
             else:
                 test_data += [0.0, 0.0, 0.0]
