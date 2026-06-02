@@ -10,6 +10,9 @@ TEMPLATE_test:
 gfortran.x: {from_template: TEMPLATE_test}
 gfortran_o3.x: {from_template: TEMPLATE_test}
 
+flang.x: {from_template: TEMPLATE_test}
+flang_o3.x: {from_template: TEMPLATE_test}
+
 ifx.x: {from_template: TEMPLATE_test}
 ifx_o3.x: {from_template: TEMPLATE_test}
 
@@ -18,5 +21,8 @@ gpp_o3.x: {from_template: TEMPLATE_test}
 
 icx.x: {from_template: TEMPLATE_test}
 icx_o3.x: {from_template: TEMPLATE_test}
+
+clang.x: {from_template: TEMPLATE_test}
+clang_o3.x: {from_template: TEMPLATE_test}
 
 

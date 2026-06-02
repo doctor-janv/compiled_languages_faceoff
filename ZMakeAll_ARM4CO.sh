@@ -8,12 +8,26 @@ pushd Test1/
     gfortran -std=f2008 -O2 -march=native gfortran_w_lu4.F90 -o bin/gfortran_w_lu4.x
     gfortran -std=f2008 -O2 -march=native gfortran_w_lu8.F90 -o bin/gfortran_w_lu8.x
 
+    flang -std=f2018 -O2 -march=native gfortran.F90      -o bin/flang.x
+    flang -std=f2018 -O3 -march=native gfortran.F90      -o bin/flang_o3.x
+    flang -std=f2018 -O2 -march=native gfortran_w_lu2.F90 -o bin/flang_w_lu2.x
+    flang -std=f2018 -O3 -march=native gfortran_w_lu2.F90 -o bin/flang_w_lu2_o3.x
+    flang -std=f2018 -O2 -march=native gfortran_w_lu4.F90 -o bin/flang_w_lu4.x
+    flang -std=f2018 -O2 -march=native gfortran_w_lu8.F90 -o bin/flang_w_lu8.x
+
     g++ -std=c++17 -O2 -march=native gpp.cc      -o bin/gpp.x
     g++ -std=c++17 -O3 -march=native gpp.cc      -o bin/gpp_o3.x
     g++ -std=c++17 -O2 -march=native gpp_w_lu2.cc -o bin/gpp_w_lu2.x
     g++ -std=c++17 -O3 -march=native gpp_w_lu2.cc -o bin/gpp_w_lu2_o3.x
     g++ -std=c++17 -O2 -march=native gpp_w_lu4.cc -o bin/gpp_w_lu4.x
     g++ -std=c++17 -O2 -march=native gpp_w_lu8.cc -o bin/gpp_w_lu8.x
+
+    clang++ -std=c++17 -O2 -march=native gpp.cc      -o bin/clang.x
+    clang++ -std=c++17 -O3 -march=native gpp.cc      -o bin/clang_o3.x
+    clang++ -std=c++17 -O2 -march=native gpp_w_lu2.cc -o bin/clang_w_lu2.x
+    clang++ -std=c++17 -O3 -march=native gpp_w_lu2.cc -o bin/clang_w_lu2_o3.x
+    clang++ -std=c++17 -O2 -march=native gpp_w_lu4.cc -o bin/clang_w_lu4.x
+    clang++ -std=c++17 -O2 -march=native gpp_w_lu8.cc -o bin/clang_w_lu8.x
 
 popd
 
@@ -27,12 +41,26 @@ pushd Test2/
     gfortran -std=f2008 -O2 -march=native gfortran_w_lu4.F90 -o bin/gfortran_w_lu4.x
     gfortran -std=f2008 -O2 -march=native gfortran_w_lu8.F90 -o bin/gfortran_w_lu8.x
 
+    flang -std=f2018 -O2 -march=native gfortran.F90      -o bin/flang.x
+    flang -std=f2018 -O3 -march=native gfortran.F90      -o bin/flang_o3.x
+    flang -std=f2018 -O2 -march=native gfortran_w_lu2.F90 -o bin/flang_w_lu2.x
+    flang -std=f2018 -O3 -march=native gfortran_w_lu2.F90 -o bin/flang_w_lu2_o3.x
+    flang -std=f2018 -O2 -march=native gfortran_w_lu4.F90 -o bin/flang_w_lu4.x
+    flang -std=f2018 -O2 -march=native gfortran_w_lu8.F90 -o bin/flang_w_lu8.x
+
     g++ -std=c++17 -O2 -march=native gpp.cc      -o bin/gpp.x
     g++ -std=c++17 -O3 -march=native gpp.cc      -o bin/gpp_o3.x
     g++ -std=c++17 -O2 -march=native gpp_w_lu2.cc -o bin/gpp_w_lu2.x
     g++ -std=c++17 -O3 -march=native gpp_w_lu2.cc -o bin/gpp_w_lu2_o3.x
     g++ -std=c++17 -O2 -march=native gpp_w_lu4.cc -o bin/gpp_w_lu4.x
     g++ -std=c++17 -O2 -march=native gpp_w_lu8.cc -o bin/gpp_w_lu8.x
+
+    clang++ -std=c++17 -O2 -march=native gpp.cc      -o bin/clang.x
+    clang++ -std=c++17 -O3 -march=native gpp.cc      -o bin/clang_o3.x
+    clang++ -std=c++17 -O2 -march=native gpp_w_lu2.cc -o bin/clang_w_lu2.x
+    clang++ -std=c++17 -O3 -march=native gpp_w_lu2.cc -o bin/clang_w_lu2_o3.x
+    clang++ -std=c++17 -O2 -march=native gpp_w_lu4.cc -o bin/clang_w_lu4.x
+    clang++ -std=c++17 -O2 -march=native gpp_w_lu8.cc -o bin/clang_w_lu8.x
 
 popd
 
@@ -46,12 +74,29 @@ pushd Test3/
     gfortran -std=f2008 -O2 -march=native gfortran_w_lu4.F90 -o bin/gfortran_w_lu4.x
     gfortran -std=f2008 -O2 -march=native gfortran_w_lu8.F90 -o bin/gfortran_w_lu8.x
 
+    flang -std=f2018 -O2 -march=native gfortran.F90      -o bin/flang.x
+    flang -std=f2018 -O3 -march=native gfortran.F90      -o bin/flang_o3.x
+    flang -std=f2018 -O2 -march=native gfortran_w_lu2.F90 -o bin/flang_w_lu2.x
+    flang -std=f2018 -O3 -march=native gfortran_w_lu2.F90 -o bin/flang_w_lu2_o3.x
+    flang -std=f2018 -O2 -march=native gfortran_w_lu4.F90 -o bin/flang_w_lu4.x
+    flang -std=f2018 -O2 -march=native gfortran_w_lu8.F90 -o bin/flang_w_lu8.x
+
+    g++ -std=c++17 -O2 -march=native gpp.cc      -o bin/clang.x
+    g++ -std=c++17 -O3 -march=native gpp.cc      -o bin/clang_o3.x
+
     g++ -std=c++17 -O2 -march=native gpp.cc      -o bin/gpp.x
     g++ -std=c++17 -O3 -march=native gpp.cc      -o bin/gpp_o3.x
     g++ -std=c++17 -O2 -march=native gpp_w_lu2.cc -o bin/gpp_w_lu2.x
     g++ -std=c++17 -O3 -march=native gpp_w_lu2.cc -o bin/gpp_w_lu2_o3.x
     g++ -std=c++17 -O2 -march=native gpp_w_lu4.cc -o bin/gpp_w_lu4.x
     g++ -std=c++17 -O2 -march=native gpp_w_lu8.cc -o bin/gpp_w_lu8.x
+
+    clang++ -std=c++17 -O2 -march=native gpp.cc      -o bin/clang.x
+    clang++ -std=c++17 -O3 -march=native gpp.cc      -o bin/clang_o3.x
+    clang++ -std=c++17 -O2 -march=native gpp_w_lu2.cc -o bin/clang_w_lu2.x
+    clang++ -std=c++17 -O3 -march=native gpp_w_lu2.cc -o bin/clang_w_lu2_o3.x
+    clang++ -std=c++17 -O2 -march=native gpp_w_lu4.cc -o bin/clang_w_lu4.x
+    clang++ -std=c++17 -O2 -march=native gpp_w_lu8.cc -o bin/clang_w_lu8.x
 
 popd
 
@@ -61,8 +106,14 @@ pushd Test4/
     gfortran -std=f2008 -O2 -march=native gfortran.F90      -o bin/gfortran.x
     gfortran -std=f2008 -O3 -march=native gfortran.F90      -o bin/gfortran_o3.x
 
+    flang -std=f2018 -O2 -march=native gfortran.F90      -o bin/flang.x
+    flang -std=f2018 -O3 -march=native gfortran.F90      -o bin/flang_o3.x
+
     g++ -std=c++17 -O2 -march=native gpp.cc      -o bin/gpp.x
     g++ -std=c++17 -O3 -march=native gpp.cc      -o bin/gpp_o3.x
+
+    clang++ -std=c++17 -O2 -march=native gpp.cc      -o bin/clang.x
+    clang++ -std=c++17 -O3 -march=native gpp.cc      -o bin/clang_o3.x
 
 popd
 
@@ -72,8 +123,14 @@ pushd Test5/
     gfortran -std=f2008 -O2 -march=native gfortran.F90      -o bin/gfortran.x
     gfortran -std=f2008 -O3 -march=native gfortran.F90      -o bin/gfortran_o3.x
 
+    flang -std=f2018 -O2 -march=native gfortran.F90      -o bin/flang.x
+    flang -std=f2018 -O3 -march=native gfortran.F90      -o bin/flang_o3.x
+
     g++ -std=c++17 -O2 -march=native gpp.cc      -o bin/gpp.x
     g++ -std=c++17 -O3 -march=native gpp.cc      -o bin/gpp_o3.x
+
+    clang++ -std=c++17 -O2 -march=native gpp.cc      -o bin/clang.x
+    clang++ -std=c++17 -O3 -march=native gpp.cc      -o bin/clang_o3.x
 
 popd
 
@@ -83,8 +140,14 @@ pushd Test6/
     gfortran -std=f2008 -O2 -march=native gfortran.F90      -o bin/gfortran.x
     gfortran -std=f2008 -O3 -march=native gfortran.F90      -o bin/gfortran_o3.x
 
+    flang -std=f2018 -O2 -march=native gfortran.F90      -o bin/flang.x
+    flang -std=f2018 -O3 -march=native gfortran.F90      -o bin/flang_o3.x
+
     g++ -std=c++17 -O2 -march=native gpp.cc      -o bin/gpp.x
     g++ -std=c++17 -O3 -march=native gpp.cc      -o bin/gpp_o3.x
+
+    clang++ -std=c++17 -O2 -march=native gpp.cc      -o bin/clang.x
+    clang++ -std=c++17 -O3 -march=native gpp.cc      -o bin/clang_o3.x
 
 popd
 
@@ -94,8 +157,14 @@ pushd Test7/
     gfortran -std=f2008 -O2 -march=native gfortran.F90      -o bin/gfortran.x
     gfortran -std=f2008 -O3 -march=native gfortran.F90      -o bin/gfortran_o3.x
 
+    flang -std=f2018 -O2 -march=native gfortran.F90      -o bin/flang.x
+    flang -std=f2018 -O3 -march=native gfortran.F90      -o bin/flang_o3.x
+
     g++ -std=c++17 -O2 -march=native gpp.cc      -o bin/gpp.x
     g++ -std=c++17 -O3 -march=native gpp.cc      -o bin/gpp_o3.x
+
+    clang++ -std=c++17 -O2 -march=native gpp.cc      -o bin/clang.x
+    clang++ -std=c++17 -O3 -march=native gpp.cc      -o bin/clang_o3.x
 
 popd
 
@@ -105,8 +174,14 @@ pushd Test8/
     gfortran -std=f2008 -O2 -march=native gfortran.F90      -o bin/gfortran.x
     gfortran -std=f2008 -O3 -march=native gfortran.F90      -o bin/gfortran_o3.x
 
+    flang -std=f2018 -O2 -march=native gfortran.F90      -o bin/flang.x
+    flang -std=f2018 -O3 -march=native gfortran.F90      -o bin/flang_o3.x
+
     g++ -std=c++17 -O2 -march=native gpp.cc      -o bin/gpp.x
     g++ -std=c++17 -O3 -march=native gpp.cc      -o bin/gpp_o3.x
+
+    clang++ -std=c++17 -O2 -march=native gpp.cc      -o bin/clang.x
+    clang++ -std=c++17 -O3 -march=native gpp.cc      -o bin/clang_o3.x
 
 popd
 

@@ -43,8 +43,13 @@ cpus = [
 "AMDRyzen5800XCO",
 "IntelXeonCO",
 "ARM4CO",
-"ARM1CO",
 ]
+# cpus = [
+# "AMDTurin",
+# "AMDRyzen5800X",
+# "IntelXeon",
+# "ARM4",
+# ]
 
 data_types = ["mean_time", "SEM"]
 
@@ -59,11 +64,13 @@ def map_language_from_compiler(compiler: str) -> str:
 def make_plot(plot_num, test_num, plot_title):
     tests = [
     f"Test{test_num}/gfortran_o3.x",
-    f"Test{test_num}/gpp_o3.x",
+    f"Test{test_num}/flang_o3.x",
     f"Test{test_num}/ifx_o3.x",
+    f"Test{test_num}/gpp_o3.x",
+    f"Test{test_num}/clang_o3.x",
     f"Test{test_num}/icx_o3.x",
     ]
-    colors = tuple(["black","blue","gray","green" ])
+    colors = tuple(["black","cyan","blue","gray","green","orange" ])
 
     max_y = 0.0
     configurations = tuple(cpus)
@@ -79,14 +86,17 @@ def make_plot(plot_num, test_num, plot_title):
             SEM = get_data(csv_rows, cpu, "SEM", test_long_name)
             max_y = max(max_y, mean_time+SEM)
 
-            mean_time_data += [mean_time]
+            if mean_time < 1.0e-3:
+                mean_time_data += [-0.3]
+            else:
+                mean_time_data += [mean_time]
             SEM_data += [SEM]
 
         data_pairs[test_name] = [mean_time_data, SEM_data]
 
 
     x = np.arange(len(configurations))  # the label locations
-    width = 0.2  # the width of the bars
+    width = 0.15  # the width of the bars
     multiplier = 0
 
     fig, ax = plt.subplots(layout='constrained', figsize=(10, 5))
@@ -106,6 +116,7 @@ def make_plot(plot_num, test_num, plot_title):
         for time in mean_time_data:
             if time > 0.0:
                 times += [time]
+        if len(times) == 0: times = [0.0]
         min_time = np.min(times)
         if min_time < winner_pair[1]:
             winner_pair = [map_language_from_compiler(compiler), min_time]
@@ -126,10 +137,11 @@ def make_plot(plot_num, test_num, plot_title):
 
     # Add some text for labels, title and custom x-axis tick labels, etc.
     ax.set_ylabel('Time taken (milli-seconds)')
-    ax.set_title(f'Test {plot_num}({test_num}) {plot_title} ({winner_pair[0]} wins, {winner_pair[1]:.1f} ms)')
+    # ax.set_title(f'Test {plot_num}({test_num}) {plot_title} ({winner_pair[0]} wins, {winner_pair[1]:.1f} ms)')
+    ax.set_title(f'Test {plot_num}({test_num}) {plot_title}')
     ax.set_xticks(x + width, configurations)
-    ax.legend(loc='upper center', ncols=4)
-    ax.set_ylim(0, max_y*1.25)
+    ax.legend(loc='upper center', ncols=6)
+    ax.set_ylim(-1.5, max_y*1.25)
 
     plt.savefig(f"Plot{plot_num}.png")
 

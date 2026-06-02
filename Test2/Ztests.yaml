@@ -14,6 +14,13 @@ gfortran_w_lu2_o3.x: {from_template: TEMPLATE_test}
 gfortran_w_lu4.x: {from_template: TEMPLATE_test}
 gfortran_w_lu8.x: {from_template: TEMPLATE_test}
 
+flang.x: {from_template: TEMPLATE_test}
+flang_o3.x: {from_template: TEMPLATE_test}
+flang_w_lu2.x: {from_template: TEMPLATE_test}
+flang_w_lu2_o3.x: {from_template: TEMPLATE_test}
+flang_w_lu4.x: {from_template: TEMPLATE_test}
+flang_w_lu8.x: {from_template: TEMPLATE_test}
+
 ifx.x: {from_template: TEMPLATE_test}
 ifx_o3.x: {from_template: TEMPLATE_test}
 ifx_w_lu2.x: {from_template: TEMPLATE_test}
@@ -34,4 +41,11 @@ icx_w_lu2.x: {from_template: TEMPLATE_test}
 icx_w_lu2_o3.x: {from_template: TEMPLATE_test}
 icx_w_lu4.x: {from_template: TEMPLATE_test}
 icx_w_lu8.x: {from_template: TEMPLATE_test}
+
+clang.x: {from_template: TEMPLATE_test}
+clang_o3.x: {from_template: TEMPLATE_test}
+clang_w_lu2.x: {from_template: TEMPLATE_test}
+clang_w_lu2_o3.x: {from_template: TEMPLATE_test}
+clang_w_lu4.x: {from_template: TEMPLATE_test}
+clang_w_lu8.x: {from_template: TEMPLATE_test}
 
