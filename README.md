@@ -29,3 +29,18 @@ When inside the container gcc-12 needs to be activated
 ```
 scl enable gcc-toolset-12 bash
 ```
+
+## Building the container
+
+**The container HAS to be built on rod.hpc.inl.gov**
+
+```
+module load use.moose
+mkdir -p scratch
+apptainer build scratch/container.sif container/container.def
+```
+
+Installing experimental packages
+```
+apptainer shell --writable-tmpfs --fakeroot my_container.sif
+```
