@@ -1,9 +1,6 @@
 Bootstrap: oras
 From: mooseharbor.hpc.inl.gov/relap5-base/relap5-base:rocky8.6-intel2.1.8-10
 
-#%files
-#    /home/langem/tools/codee-2025.4.8-linux-x86_64 /opt/codee-2025.4.8
-
 %post
     set -e
 
@@ -38,21 +35,38 @@ From: mooseharbor.hpc.inl.gov/relap5-base/relap5-base:rocky8.6-intel2.1.8-10
     ln -sf /opt/rh/gcc-toolset-12/root/usr/bin/g++      /opt/gcc-12/bin/g++
     ln -sf /opt/rh/gcc-toolset-12/root/usr/bin/gfortran /opt/gcc-12/bin/gfortran
 
-    # LLVM 19: clang, clang++, clangd, clang-format, clang-tidy, lld, flang
-    cd /opt
-    wget https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/LLVM-19.1.7-Linux-X64.tar.xz
-    tar -xf LLVM-19.1.7-Linux-X64.tar.xz
-    mv LLVM-19.1.7-Linux-X64 llvm-19
-    rm -f LLVM-19.1.7-Linux-X64.tar.xz
-
-    ln -sf /opt/llvm-19/bin/flang-new /opt/llvm-19/bin/flang
-
     # fd-find installs as fdfind on RHEL/Rocky
     ln -sf /usr/bin/fdfind /usr/local/bin/fd
 
-#     # Codee
-#     ln -sfn /opt/codee-2025.4.8 /opt/codee
-#     chmod +x /opt/codee/bin/codee
+    # clang
+    dnf install -y clang
+
+    # flang
+    dnf install -y ninja-build
+    mkdir -p ~/llvm-workspace
+    cd ~/llvm-workspace
+
+        # Clone LLVM project (using the main branch or a specific release tag)
+    git clone https://github.com/llvm/llvm-project.git
+    cd llvm-project
+    git fetch --tags
+    git checkout -b v18 a255c1e
+
+    mkdir -p build
+    cd build
+
+    cmake -G "Unix Makefiles" \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DLLVM_ENABLE_PROJECTS="clang;flang;mlir;lld" \
+    -DLLVM_ENABLE_RUNTIMES="flang-rt;openmp" \
+    -DCMAKE_INSTALL_PREFIX=/usr/local/llvm-flang \
+    ../llvm
+
+    # Compile the toolchain
+    make -j 4
+
+    # Install to the specified prefix directory
+    make install
 
     # Clean up
     /opt/uv/bin/uv cache clean
@@ -72,7 +86,5 @@ From: mooseharbor.hpc.inl.gov/relap5-base/relap5-base:rocky8.6-intel2.1.8-10
     export PATH=/opt/gcc-12/bin:$PATH
     export LD_LIBRARY_PATH=/opt/rh/gcc-toolset-12/root/usr/lib64:$LD_LIBRARY_PATH
 
-    export PATH=/opt/llvm-19/bin:$PATH
-    export LD_LIBRARY_PATH=/opt/llvm-19/lib:$LD_LIBRARY_PATH
-
-    # export PATH=/opt/codee/bin:$PATH
+    export LIBRARY_PATH=/usr/local/llvm-flang/lib:$LIBRARY_PATH
+    export PATH=/usr/local/llvm-flang/bin:$PATH
