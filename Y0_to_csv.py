@@ -4,7 +4,7 @@
 import yaml
 
 processors = [
-"AMDRyzen5800X",
+"AMDRyzen5800x",
 "AMDRyzen5800XCO",
 "AMDTurin",
 "AMDTurinCO",

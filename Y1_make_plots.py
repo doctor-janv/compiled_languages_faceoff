@@ -46,7 +46,7 @@ cpus = [
 ]
 # cpus = [
 # "AMDTurin",
-# "AMDRyzen5800X",
+# "AMDRyzen5800x",
 # "IntelXeon",
 # "ARM4",
 # ]
