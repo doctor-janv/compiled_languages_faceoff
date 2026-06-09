@@ -1,6 +1,10 @@
 Bootstrap: oras
 From: mooseharbor.hpc.inl.gov/relap5-base/relap5-base:rocky8.6-intel2.1.8-10
 
+%setup
+    mkdir -p ${APPTAINER_ROOTFS}/opt/intel_downloads
+    cp container/intel-cpp-essentials-2025.0.1.27_offline.sh ${APPTAINER_ROOTFS}/opt/intel_downloads/
+
 %post
     set -e
 
@@ -68,6 +72,10 @@ From: mooseharbor.hpc.inl.gov/relap5-base/relap5-base:rocky8.6-intel2.1.8-10
     # Install to the specified prefix directory
     make install
 
+    #install intel c++ compiler
+    cd /opt/intel_downloads
+    bash ./intel-cpp-essentials-2025.0.1.27_offline.sh -a --silent --eula accept --install-dir=/opt/intel
+
     # Clean up
     /opt/uv/bin/uv cache clean
     dnf clean all
@@ -88,3 +96,6 @@ From: mooseharbor.hpc.inl.gov/relap5-base/relap5-base:rocky8.6-intel2.1.8-10
 
     export LIBRARY_PATH=/usr/local/llvm-flang/lib:$LIBRARY_PATH
     export PATH=/usr/local/llvm-flang/bin:$PATH
+
+    export LIBRARY_PATH=/opt/intel/2025.0/lib:$LIBRARY_PATH
+    export PATH=/opt/intel/2025.0/bin:$PATH
